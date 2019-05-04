@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soil.mapper.SoilMapper">
+	<!-- 查询SQL片段 -->
+	<sql id="select">
+		id,userid,region,price,type,length,width,picture,state,createtime,description 
+	</sql>
+	
+	<!-- 筛选片段 -->
+	<sql id="serach">
+		where region like '%${keyword}%' or description like
+		'%${keyword}%'
+	</sql>
+	
+	<!-- 添加信息 -->
+	<insert id="insert" parameterType="soil">
+		INSERT INTO
+		notice (id,userid,region,price,type,length,width,picture,state,createtime,description)
+		VALUES(#{id},#{userid},#{region},#{price},#{type},#{length},#{width},#{picture},#{state},#{createTime},#{description})
+	</insert>
+
+	<!-- 查询分页数据 -->
+	<select id="list" parameterType="com.soil.util.Pagination"
+		resultType="soil">
+		SELECT
+		<include refid="select" />
+		from soil
+		<include refid="serach" />
+		LIMIT #{skipNum},#{takeNum}
+	</select>
+
+	<!-- 查询分页条数 -->
+	<select id="count" parameterType="com.soil.util.Pagination"
+		resultType="int">
+		SELECT COUNT(*) from soil
+		<include refid="serach" />
+		LIMIT #{skipNum},#{takeNum}
+	</select>
+
+	<!-- 删除信息 -->
+	<delete id="delete" parameterType="soil">
+		DELETE FROM soil WHERE
+		id=#{id}
+	</delete>
+
+	<!-- 根据Id查询信息 -->
+	<select id="findById" parameterType="string" resultType="soil">
+		select
+		<include refid="select" />
+		from soil where id=#{id}
+	</select>
+
+	<!-- 更新信息 -->
+	<update id="update" parameterType="soil">
+		UPDATE soil set
+		userid=#{userId},
+		region=#{region},
+		price=#{price},
+		type=#{type},
+		length=#{length},
+		width=#{width},
+		picture=#{picture},
+		state=#{state},
+		createtime=#{createTime},
+		description=#{description}
+		where id=#{id}
+	</update>
+</mapper>

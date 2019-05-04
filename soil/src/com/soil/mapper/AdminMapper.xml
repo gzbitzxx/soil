@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soil.mapper.AdminMapper">
+<!-- 查询SQL片段 -->
+	<sql id="select">
+		id,userName,`password`, realName,phone,createTime
+	</sql>
+	<!-- 筛选片段 -->
+	<sql id="serach">
+		where userName like '%${keyword}%' or realName like '%${keyword}%' or phone like '%${keyword}%' 
+	</sql>
+<!-- 添加用户 -->
+	<insert id="insert" parameterType="admin">
+		INSERT INTO 
+		admin (id,userName,password,realName,phone,createTime)
+		VALUES(#{id},#{userName},#{password},#{realName},#{phone},#{createTime})
+	</insert>
+<!-- 用户登录 -->
+	<select id="login" parameterType="admin" resultType="admin">
+		 SELECT <include refid="select"/> from admin
+		 WHERE userName=#{userName} AND password=#{password}
+	</select>
+	<!-- 查询分页数据 -->
+	<select id="list" parameterType="com.soil.util.Pagination"
+		resultType="admin">
+		SELECT <include refid="select"/>
+		from admin
+		 <include refid="serach"/>
+		 LIMIT #{skipNum},#{takeNum}
+	</select>
+	<!-- 查询分页条数 -->
+	<select id="count" parameterType="com.soil.util.Pagination"
+		resultType="int">
+		SELECT COUNT(*) from admin
+		 <include refid="serach"/>
+		  LIMIT #{skipNum},#{takeNum}
+	</select>
+	<!-- 删除用户 -->
+	<delete id="delete" parameterType="admin">
+		DELETE FROM admin WHERE id=#{id}
+	</delete>
+	<!-- 根据Id查询用户 -->
+	<select id="findById" parameterType="string" resultType="admin">
+		select <include refid="select"/> from admin where id=#{id}
+	</select>
+	<!-- 更新用户 -->
+	<update id="update" parameterType="user">
+		UPDATE admin set
+		userName=#{userName},
+		name=#{name},
+		age=#{age},
+		sex=#{sex},
+		phone=#{phone}
+		where id=#{id}
+	</update>
+	<select id="findIDAndNumber" resultType="com.soil.util.SelectCustom" >
+	SELECT id value,realName name FROM admin
+	</select>
+</mapper>
