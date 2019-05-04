@@ -41,7 +41,7 @@
                         </a>
                     </li>
                     <li role="presentation ">
-                        <a href="../user/loginOut">
+                        <a href="../admin/loginOut">
                             <i class="iconfont icon-jinru"></i> 注销
                         </a>
                     </li>

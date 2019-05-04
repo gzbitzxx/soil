@@ -31,7 +31,7 @@
                 </div>
             </div>
             <br>
-            <form method="post" action='../user/login'>
+            <form method="post" action='../admin/login'>
             <!-- <div class="row" style="color:red;">&nbsp;&nbsp;&nbsp;&nbsp;登陆信息有误，请重新输入！</div> -->
             <div class="row">
                 <div class="col-md-12">
@@ -45,12 +45,10 @@
             <br>
             <div class="row">
                 <div class="col-md-12">
-
                         <div class="hui-input-group hui-panel-radius">
                             <i class="iconfont icon-mima"></i>
                             <input type="password" name="password" class="hui-input-primary hui-radius" placeholder="密码" />
                         </div>
-
                 </div>
             </div>
             <br>

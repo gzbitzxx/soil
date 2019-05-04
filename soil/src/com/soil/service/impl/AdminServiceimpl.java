@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 
 import com.soil.mapper.AdminMapper;
 import com.soil.pojo.Admin;
+import com.soil.pojo.User;
 import com.soil.service.AdminService;
 import com.soil.util.Pagination;
 import com.soil.util.Util;
@@ -17,6 +18,10 @@ public class AdminServiceimpl implements AdminService {
 	@Autowired
 	@Qualifier("adminMapper")
 	private AdminMapper adminMapper;
+	
+	public Admin login(Admin admin) {
+		return adminMapper.login(admin);
+	}
 	
 	public String list(Pagination pagination) {
 		List<Admin> complaints=adminMapper.list(pagination);

@@ -1,5 +1,7 @@
 package com.soil.controller;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
@@ -7,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.soil.pojo.Admin;
+import com.soil.pojo.User;
 import com.soil.service.AdminService;
 import com.soil.util.Pagination;
 import com.soil.util.SecurityUtil;
@@ -35,6 +38,34 @@ public class AdminController {
 		admin.setPassword(SecurityUtil.strToMD5(admin.getPassword()));
 		adminService.insert(admin);
 		return "ok";
+	}
+	
+	/**
+	 * 用户登录
+	 * @param user 用户信息
+	 * @return
+	 */
+	@RequestMapping("/login")
+	public String login(Admin admin,HttpServletRequest request){
+		 admin.setPassword(SecurityUtil.strToMD5(admin.getPassword()));
+		 Admin result=adminService.login(admin);
+		 if (result==null) {
+			return "management/login";
+		}else {
+			request.getSession().setAttribute("admin", result);
+			return "management/index";
+		}
+	}
+	
+	/**
+	 * 退出
+	 * @param request
+	 * @return
+	 */
+	@RequestMapping("/loginOut")
+	public String loginOut(HttpServletRequest request) {
+		request.getSession().removeAttribute("admin");
+		return "management/login";
 	}
 	
 	/**
