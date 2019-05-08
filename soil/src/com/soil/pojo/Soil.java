@@ -2,6 +2,8 @@ package com.soil.pojo;
 
 import java.util.Date;
 
+import org.springframework.web.multipart.MultipartFile;
+
 public class Soil {
 	//编号
 	private int Id;
@@ -23,12 +25,33 @@ public class Soil {
 	private boolean state;
 	//创建时间
 	private Date createTime;
+	
+	//图片
+	private MultipartFile blFile;
+	
+	//描述
+	private String description;
+	
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
+	public MultipartFile getBlFile() {
+		return blFile;
+	}
+	public void setBlFile(MultipartFile blFile) {
+		this.blFile = blFile;
+	}
 	public int getId() {
 		return Id;
 	}
 	public void setId(int id) {
 		Id = id;
 	}
+	
 	public int getUserId() {
 		return userId;
 	}

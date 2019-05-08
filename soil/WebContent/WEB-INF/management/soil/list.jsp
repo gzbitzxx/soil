@@ -157,7 +157,7 @@
 					</button>
 					<h4 class="modal-title">添加土地信息</h4>
 				</div>
-				<form id="data">
+				<form id="data" action="../soils/add" method="POST" enctype="multipart/form-data">
 					<div class="modal-body">
 						<input type="hidden" id="id">
 						<div class="row">
@@ -224,17 +224,17 @@
 							<div class="col-lg-12">
 								<div class="form-group" lang="phone">
 									<label for="phone">上传图片：</label> <input type="file"
-										class="form-control" name="picture" id="picture"
+										class="form-control" name="blFile" id="blFile"
 										placeholder="上传图片" data-val="true"
 										data-val-required="请填写 &#39;上传图片&#39;。"> <span
-										class="field-validation-error" data-valmsg-for="picture"
+										class="field-validation-error" data-valmsg-for="blFile"
 										data-valmsg-replace="true"></span>
 								</div>
 							</div>
 							<div class="modal-footer">
 								<button type="button" class="btn btn-default"
 									data-dismiss="modal">关闭</button>
-								<button type="button" class="btn btn-primary" id="add">保存</button>
+								<button type="submit" class="btn btn-primary" id="add">保存</button>
 							</div>
 				</form>
 			</div>
@@ -256,11 +256,12 @@
 						RefreshGridManagerList(keyword);
 					}
 				});
-		
+
 		$("#add").click(function() {
 			if (!$('#data').valid()) {
 				return;
 				}
+			/*
 			layui.use('layer',function() {
 				layer = layui.layer;
 				var id = $("#id").val();
@@ -295,6 +296,7 @@
 				}
 			});
 		});
+			*/
 	});
 
 		//删除
@@ -306,7 +308,7 @@
 				}, function(index) {
 
 					$.ajax({
-						url : "../soil/detele",
+						url : "../soils/detele",
 						type : "POST",
 						data : {
 							'id' : ob
@@ -330,7 +332,7 @@
 		//更新信息
 		function updateInfo(id) {
 			$.ajax({
-				url : '../soil/findById',
+				url : '../soils/findById',
 				data : {
 					'id' : id
 				},
