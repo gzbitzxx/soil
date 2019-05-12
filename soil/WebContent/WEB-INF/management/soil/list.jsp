@@ -40,6 +40,8 @@
 <script src="../web/htmlframe/plugings/grid_manager/GridManager.min.js"></script>
 <script src="../web/htmlframe/js/bootstrap.min.js"></script>
 <script src="../web/htmlframe/plugings/layui/layui.js"></script>
+<script type="text/javascript" src="../web/htmlframe/plugings/wangEdit/wangEditor.js"></script>
+
 <script type="text/javascript">
 	$(function() {
 		init("");
@@ -231,6 +233,14 @@
 										data-valmsg-replace="true"></span>
 								</div>
 							</div>
+							<div class="col-lg-12">
+								<div class="form-group">
+									<label for="phone">土地描述：</label> 
+									<input type="hidden" name="description" id="description"> 
+									<div class="editW"></div>
+								</div>
+								
+							</div>
 							<div class="modal-footer">
 								<button type="button" class="btn btn-default"
 									data-dismiss="modal">关闭</button>
@@ -242,6 +252,10 @@
 		</div>
 	</div>
 	<script type="text/javascript">
+		var E = window.wangEditor
+		var editor2 = new E('.editW')
+		editor2.create()
+	
 		function RefreshGridManagerList(keyword) {
 			$(".table-div").remove();
 			$(".page-toolbar").remove();
@@ -261,6 +275,8 @@
 			if (!$('#data').valid()) {
 				return;
 				}
+			var l=editor2.txt.html();
+			$("#description").val(l);
 			/*
 			layui.use('layer',function() {
 				layer = layui.layer;

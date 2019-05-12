@@ -1,0 +1,269 @@
+body {
+    font-family: 微软雅黑, "Microsoft YaHei", simsun, 宋体, "Hiragino Sans GB", tahoma, arial;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(99, 99, 99);
+    word-spacing: 2px;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, dd, dt {
+    padding: 0;
+    margin: 0;
+}
+element.style {
+    filter: none;
+    display: block;
+}
+#main_nav {
+
+    border-bottom-color: #0ab552;
+    border-bottom-width: 3px;
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,.75);
+    box-shadow: 0 0 3px rgba(0,0,0,.75);
+}
+#main_nav {
+    border-bottom-color: #37ac68;
+    border-bottom-width: 3px;
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,.75);
+    box-shadow: 0 0 3px rgba(0,0,0,.75);
+}
+#main_nav {
+    border-bottom-color: #37ac68;
+    border-bottom-width: 3px;
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,.75);
+    box-shadow: 0 0 3px rgba(0,0,0,.75);
+}
+.navbar {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.navbar-default {
+    background-color: #fff !important;
+}
+
+.navbar {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border-width: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    min-height: 45px;
+    background: #438eb9;
+}
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+.navbar-default {
+    background-color: #fff !important;
+}
+.btn-group-vertical>.btn-group:after, .btn-toolbar:after, .clearfix:after, .container-fluid:after, .container:after, .dl-horizontal dd:after, .form-horizontal .form-group:after, .modal-footer:after, .nav:after, .navbar-collapse:after, .navbar-header:after, .navbar:after, .pager:after, .panel-body:after, .row:after {
+    clear: both;
+}
+.btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+    content: " ";
+    display: table;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container, .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
+.col-xs-5 {
+    width: 41.666%;
+}
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: left;
+}
+element.style {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.row {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.padding-sides0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+element.style {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #999;
+}
+.col-xs-1 {
+    width: 8.333%;
+}
+.text-center {
+    text-align: center;
+}
+
+.shopping_title {
+    font-size: 24px;
+    color: #333;
+    float: left;
+    margin-top: 12px;
+}
+
+/*-----------------问题-------------*/
+.help_index {
+    width: 1160px;
+    background: #ffffff;
+    margin: auto;
+    min-height: 600px;
+}
+
+.help_index_main {
+    width: 1121px;
+    margin: auto;
+    padding-top: 37px;
+}
+.help_index_title {
+    padding-left: 20px;
+    border-left: 5px solid #37ac68;
+    margin-bottom: 20px;
+}
+.help_line {
+    height: 1px;
+    background: #cccccc;
+}
+.help_index_list {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    max-height: 179px;
+    overflow: hidden;
+}
+.help_index_list ul li a {
+    border: 1px solid #e6e6e6;
+    padding: 0px;
+    margin: 0px;
+    padding: 17px 50px 17px 50px;
+    text-decoration: none;
+    color: #666666;
+    display: block;
+}
+.lqm{
+    
+}
+a {
+    color: #636363;
+    text-decoration: none !important;
+}
+a, button {
+    outline: 0 !important;
+}
+a {
+    color: #0ab552;
+}
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+a {
+    background: 0;
+}
+a {
+    color: #0ab552;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.help_index_list ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+ol, ul {
+    list-style: none;
+}
+.clear {
+    zoom: 1;
+}
+.clear {
+    clear: both;
+}
+
+.help_index_list ul li {
+    margin-left: 10px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.help_index_cl {
+    margin-top: 10px;
+}
+
+.help_index_content {
+    width: 273px;
+    height: 120px;
+    line-height: 120px;
+    background: red;
+    margin-right: 7px;
+    margin-bottom: 10px;
+    background: url(images/hd1.png) no-repeat;
+    float: left;
+    color: #37ac68;
+}
+
+.help_index_content .left {
+    width: 64px;
+    height: 55px;
+    margin-left: 39px;
+    float: left;
+}
+
+.help_index_content .right {
+    padding-left: 10px;
+    float: left;
+    font-size: 30px;
+}
+.divideBar30 {
+    height: 30px;
+}
+.divideBar30, .divideBar20, .divideBar10, .divideBar5 {
+    width: 100%;
+}
+.divideBar30, .divideBar20, .divideBar10, .divideBar5, .line1, .line2, .line3, .line4, .line5 {
+    line-height: 0;
+    font-size: 0;
+}
+script {
+    display: none;
+}
+
+
+
+
