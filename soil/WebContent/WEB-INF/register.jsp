@@ -1,11 +1,14 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<%@ page language="java" contentType="text/html; charset=utf-8"
+	pageEncoding="utf-8"%>
+<!DOCTYPE html>
+<html>
 <head>
-<title> 农村土地租出交流网-注册 </title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta charset="utf-8">
+<title>农村土地租出交流网</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link href="css/register.css" rel="stylesheet" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../web/favicon.ico" />
+<link href="../web/soil/css/register.css" rel="stylesheet" type="text/css">
 <script type="text/javascript">
 
 	function hideDialog() {
@@ -25,7 +28,7 @@
 <div class="head-logo">
     <div class="head-main mar">
        <a href="index.html">
-            <img src="images/d-logo.png" /></a>
+            <img src="../web/soil/images/d-logo.png" /></a>
     </div>
 </div>
 
@@ -106,7 +109,7 @@
                 <li><a onmousedown="_trackData.push(['addaction','PC_HZ_登录页','登录按钮']);	ga('send','event','PC_BJ_登录页','登录按钮','PC_BJ_登录页_登录按钮');" class="xl" href="#">新浪</a></li>
             </ul>
             <div class="ewmBox">
-                <img src="images/ewm.png">
+                <img src="../web/soil/images/ewm.png">
                 <p>[扫描下载土地租出网APP]</p>
             </div>
         </div> 
@@ -114,7 +117,7 @@
 </div>
 <!-- 注册 End -->
 <div class="footer-con mar">
-    <p>贵州有限公司 版权所有 | 网络经营许可证 Copyright &copy; 2019-2020 农村土地租赁承包网络平台</p>
+    <p>罗秋梅版权所有 | 网络经营许可证 Copyright &copy; 2019-2020 农村土地租赁承包网络平台</p>
 </div>
 
 </body>

@@ -7,6 +7,7 @@
 <title>农村土地租出交流网</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../web/favicon.ico" />
 <script type="application/x-javascript">
 	 
 addEventListener("load", function() { 
@@ -147,15 +148,15 @@ a:-webkit-any-link {
 			<span class="menu"></span>
 			<div class="top-menu">
 				<ul>
-					<li><a class="active scroll" href="index.html"> <i
+					<li><a class="active scroll" href="index"> <i
 							class="fa fa-home"></i>首页
 					</a></li>
-					<li><a href="about.html"><i class="fa fa-star"> </i>我要找地</a></li>
-					<li><a href="contact.html"><i class="fa fa-thumbs-up">
+					<li><a href="about"><i class="fa fa-star"> </i>我要找地</a></li>
+					<li><a href="contact"><i class="fa fa-thumbs-up">
 						</i>土地资讯</a></li>
-					<li><a href="services.html"><i class="fa fa-picture-o">
+					<li><a href="services"><i class="fa fa-picture-o">
 						</i>帮助中心</a></li>
-					<li><a href="login.html"><i class="fa fa-envelope-o">
+					<li><a href="login"><i class="fa fa-envelope-o">
 						</i>登录/注册</a></li>
 					<div class="clearfix"></div>
 				</ul>
