@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,14 +9,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="shortcut icon" href="../web/favicon.ico" />
+
 <script type="application/x-javascript">
+	
 	 
 addEventListener("load", function() { 
 	setTimeout(hideURLbar, 0); 
 	}, false); 
 function hideURLbar(){ window.scrollTo(0,1); } 
+
 </script>
-<link href="../web/soil/css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="../web/soil/css/bootstrap.css" rel='stylesheet'
+	type='text/css' />
 <script src="../web/soil/js/jquery-1.11.1.min.js"></script>
 <link href="../web/soil/css/style.css" rel='stylesheet' type='text/css' />
 <link href='#css?family=Grand+Hotel:400' rel='stylesheet'
@@ -126,12 +131,13 @@ a:-webkit-any-link {
 </script>
 
 <link rel="stylesheet" href="../web/soil/fonts/css/font-awesome.min.css">
-<script src="../web/soil/js/easyResponsiveTabs.js" type="text/javascript"></script>
+<script src="../web/soil/js/easyResponsiveTabs.js"
+	type="text/javascript"></script>
 <script type="text/javascript">
 	$(document).ready(function() {
 		$('#horizontalTab').easyResponsiveTabs({
-			type : 'default',        
-			width : 'auto', 
+			type : 'default',
+			width : 'auto',
 			fit : true
 		});
 	});
@@ -148,16 +154,25 @@ a:-webkit-any-link {
 			<span class="menu"></span>
 			<div class="top-menu">
 				<ul>
-					<li><a class="active scroll" href="index"> <i
+					<li><a class="active scroll" href="../index/index"> <i
 							class="fa fa-home"></i>首页
 					</a></li>
-					<li><a href="about"><i class="fa fa-star"> </i>我要找地</a></li>
-					<li><a href="contact"><i class="fa fa-thumbs-up">
+					<li><a href="../index/about"><i class="fa fa-star"> </i>我要找地</a></li>
+					<li><a href="../index/contact"><i class="fa fa-thumbs-up">
 						</i>土地资讯</a></li>
-					<li><a href="services"><i class="fa fa-picture-o">
+					<li><a href="../index/services"><i class="fa fa-picture-o">
 						</i>帮助中心</a></li>
-					<li><a href="login"><i class="fa fa-envelope-o">
-						</i>登录/注册</a></li>
+					<c:if test="${user!=null}">
+						<li><a href="#"><i class="fa fa-envelope-o"> </i>${user.name}</a></li>
+						<li><a href="../user/loginOut"><i
+								class="fa fa-envelope-o"> </i>注销</a></li>
+					</c:if>
+					<c:if test="${user==null}">
+						<li><a href="../index/login"><i class="fa fa-envelope-o">
+							</i>登录/注册 </a></li>
+					</c:if>
+
+
 					<div class="clearfix"></div>
 				</ul>
 			</div>
@@ -177,7 +192,8 @@ a:-webkit-any-link {
 	<div class="slider">
 		<div class="callbacks_container">
 			<ul class="rslides" id="slider">
-				<li><img src="../web/soil/images/banner1.jpg" class="img-responsive" alt="" />
+				<li><img src="../web/soil/images/banner1.jpg"
+					class="img-responsive" alt="" />
 					<div class="banner_desc">
 						<div class="container">
 							<h1>土地租赁交流网</h1>
@@ -230,7 +246,8 @@ a:-webkit-any-link {
 								</div>
 								<div class="clearfix"></div>
 							</div></li>
-				<li><img src="../web/soil/images/banner3.jpg" class="img-responsive" alt="" />
+				<li><img src="../web/soil/images/banner3.jpg"
+					class="img-responsive" alt="" />
 					<div class="banner_desc">
 						<div class="container">
 							<h1>土地租赁交流网</h1>
@@ -281,7 +298,8 @@ a:-webkit-any-link {
 								</div>
 								<div class="clearfix"></div>
 							</div></li>
-				<li><img src="../web/soil/images/banner2.jpg" class="img-responsive" alt="" />
+				<li><img src="../web/soil/images/banner2.jpg"
+					class="img-responsive" alt="" />
 					<div class="banner_desc">
 						<div class="container">
 							<h1>土地租赁交流网</h1>
@@ -350,108 +368,26 @@ a:-webkit-any-link {
 				</div>
 			</div>
 			<div class="service_grid">
-				<div class="col-md-3 service_box">
-					<a class="fancybox" href="images/img1.jpg"
-						data-fancybox-group="gallery" title="Product Name"><img
-						src="../web/soil/images/img1.jpg" class="img-responsive" alt="" /><span>
-					</span></a>
-					<h3>耕地</h3>
-					<p>
-						贵州省惠水长安乡长腊村租出（位置好，水源丰富，土质好）</br>区域：贵州-黔南-惠水</br>用途：种植水稻/养殖鱼类/种植水果<span>
-							<a href="#">[...]</a>
-						</span>
-					</p>
-				</div>
-				<div class="col-md-3 service_box">
-					<a class="fancybox" href="images/img2.jpg"
-						data-fancybox-group="gallery" title="Product Name"><img
-						src="../web/soil/images/img2.jpg" class="img-responsive" alt="" /><span>
-					</span></a>
-					<h3>耕地</h3>
-					<p>
-						贵州省黔南布依族苗族荔波县&nbsp;（土壤质地好，黄土，平地类型,水资源丰富）</br>区域：贵州-黔南-荔波</br>用途：耕地<span>
-							<a href="#">[...]</a>
-						</span>
-					</p>
-				</div>
-				<div class="col-md-3 service_box">
-					<a class="fancybox" href="images/img3.jpg"
-						data-fancybox-group="gallery" title="Product Name"><img
-						src="../web/soil/images/img3.jpg" class="img-responsive" alt="" /><span>
-					</span></a>
-					<h3>耕地</h3>
-					<p>
-						云南省普洱市思茅区&nbsp;（水浇地，黑土，盆地类型,交通便利）</br>区域：云南-普洱-思茅</br>用途：种植蔬菜/种植水果<span>
-							<a href="#">[...]</a>
-						</span>
-					</p>
-				</div>
-				<div class="col-md-3 service_box">
-					<a class="fancybox" href="images/img4.jpg"
-						data-fancybox-group="gallery" title="Product Name"><img
-						src="../web/soil/images/img4.jpg" class="img-responsive" alt="" /><span>
-					</span></a>
-					<h3>耕地</h3>
-					<p>
-						贵州省黔东南苗族侗族自治州榕江县&nbsp;（土壤质地好，黄土，平地类型,离城市近）</br>区域：贵州-黔东南-榕江</br>用途：种植/养殖/工业<span>
-							<a href="#">[...]</a>
-						</span>
-					</p>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<div class="service_grid">
-				<div class="col-md-3 service_box">
-					<a class="fancybox" href="images/img5.jpg"
-						data-fancybox-group="gallery" title="Product Name"><img
-						src="../web/soil/images/img5.jpg" class="img-responsive" alt="" /><span>
-					</span></a>
-					<h3>耕地</h3>
-					<p>
-						贵州省黔南布依族苗族惠水县&nbsp;（旱地，周边有河，平地类型,离公路近，交通发达）</br>区域：贵州-黔南-惠水</br>用途：农场/菜地/大棚水果<span>
-							<a href="#">[...]</a>
-						</span>
-					</p>
-				</div>
-				<div class="col-md-3 service_box">
-					<a class="fancybox" href="images/img6.jpg"
-						data-fancybox-group="gallery" title="Product Name"><img
-						src="../web/soil/images/img6.jpg" class="img-responsive" alt="" /><span>
-					</span></a>
-					<h3>耕地</h3>
-					<p>
-						云南省普洱市宁洱哈尼族彝族&nbsp;（水资源丰富，土壤质地好，黑土，盆地类型,离城市近）</br>区域：云南-普洱-宁洱哈尼族彝族</br>用途：种植水稻/蔬菜/养殖类<span>
-							<a href="#">[...]</a>
-						</span>
-					</p>
-				</div>
-				<div class="col-md-3 service_box">
-					<a class="fancybox" href="images/img7.jpg"
-						data-fancybox-group="gallery" title="Product Name"><img
-						src="../web/soil/images/img7.jpg" class="img-responsive" alt="" /><span>
-					</span></a>
-					<h3>耕地</h3>
-					<p>
-						四川省广元市旺苍县&nbsp;（土壤质地好，有旱地/水田，黄土，水源灌溉有保障）</br>区域：四川-广元-旺苍</br>用途：种植水稻/莲藕<span>
-							<a href="#">[...]</a>
-						</span>
-					</p>
+				<c:forEach var="soil" items="${soils}">
 
-				</div>
-				<div class="col-md-3 service_box">
-					<a class="fancybox" href="images/img8.jpg"
-						data-fancybox-group="gallery" title="Product Name"><img
-						src="../web/soil/images/img8.jpg" class="img-responsive" alt="" /><span>
-					</span></a>
-					<h3>耕地</h3>
-					<p>
-						云南省楚雄彝族元谋县&nbsp;（土质麻布沙，已完成改土，土地面积大，,配置水源管道）</br>区域：云南-元谋-物茂</br>用途：农作物种植/蔬菜基地<span>
-							<a href="#">[...]</a>
-						</span>
-					</p>
-				</div>
+					<div class="col-md-3 service_box">
+						<a class="fancybox" href="images/img1.jpg"
+							data-fancybox-group="gallery" title="Product Name"><img
+							src="${soil.picture}" class="img-responsive" alt="" /><span>
+						</span></a>
+						<h3> ${soil.type} </h3>
+						<p>
+							${soil.title} （${soil.secondtitle}）</br>区域：${soil.region}</br>用途：${soil.description}<span>
+								<a href="#">[...]</a>
+							</span>
+						</p>
+					</div>
+
+				</c:forEach>
+
 				<div class="clearfix"></div>
 			</div>
+			
 			<!-- ------------------ -->
 			<div class="idx-ad">
 				<a href="#" target="_blank"> <img

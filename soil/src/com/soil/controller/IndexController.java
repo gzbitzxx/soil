@@ -1,7 +1,18 @@
 package com.soil.controller;
 
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.soil.pojo.Soil;
+import com.soil.service.SoilService;
+import com.soil.util.Pagination;
+
+import sun.management.counter.Variability;
 
 
 /**
@@ -12,13 +23,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/index")
 public class IndexController {
+	@Autowired
+	@Qualifier("soilService")
+	private SoilService soilService;
 	
 	/***
 	 * 系统首页
 	 * @return
 	 */
 	@RequestMapping("/index")
-	public String Index() {
+	public String Index(Model model) {
+		Pagination pagination=new Pagination();
+		List<Soil> soils=soilService.getList(pagination);
+		model.addAttribute("soils",soils);
 		return "index";
 	}
 	

@@ -24,7 +24,7 @@
 
 
     <div class="t-login ">
-        <h4 class="tIt"><i></i>登录</h4>
+        <h4 class="tIt"><i></i>个人中心</h4>
             <div class="login-main clear">
     	        <div class="login-left lf" >
         	    <ul class="login-tab">
@@ -48,34 +48,10 @@
                                 <div class="err hide" id="passwordkong">密码不能为空</div>
                             </dd>
                             <p>
-                                <a class="wpassword" href="#">忘记密码</a></p>
-                            <div class="signinNow"> 
-                                <button type="submit" id="login" class="setBtn">立即登录</button>
-                                
- 			                    <p class="register">还没有土地租出网账号？
- 			                    <a class="regBtn" href="../index/register">立即注册<i></i>
- 			                    </a>
- 			                </p>
-                        </div>
-		                <input type="hidden" id="service" name="service" value="#">
-		                <input type="hidden" id="status1" name="status" value="1">
 		            </form>
 		        </div>
  			</div>
  		</div>
-        <div class="login-right lf">
-        	<span class="or">or</span>
-        	<p>使用以下账号直接登录</p>
-            <ul class="sf-login">
-                <li><a onmousedown="_trackData.push(['addaction','PC_HZ_登录页','登录按钮']);	ga('send','event','PC_BJ_登录页','登录按钮','PC_HZ_登录页_登录按钮');" class="wx" href="#">微信</a></li>
-                <li><a onmousedown="_trackData.push(['addaction','PC_HZ_登录页','登录按钮']);	ga('send','event','PC_BJ_登录页','登录按钮','PC_BJ_登录页_登录按钮');" class="qq" href="#">QQ</a></li>
-                <li><a onmousedown="_trackData.push(['addaction','PC_HZ_登录页','登录按钮']);	ga('send','event','PC_BJ_登录页','登录按钮','PC_BJ_登录页_登录按钮');" class="xl" href="#">新浪</a></li>
-            </ul>
-            <div class="ewmBox">
-                <img src="../web/soil/images/ewm.png">
-                <p>[扫描下载土地租出网APP]</p>
-            </div>
-        </div> 
     </div>
 </div>
 <div class="footer-con mar">

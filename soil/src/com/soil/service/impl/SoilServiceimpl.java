@@ -45,4 +45,10 @@ public class SoilServiceimpl implements SoilService {
 		soilMapper.insert(t);
 		
 	}
+
+	@Override
+	public List<Soil> getList(Pagination pagination) {
+		// TODO Auto-generated method stub
+		return soilMapper.list(pagination);
+	}
 }

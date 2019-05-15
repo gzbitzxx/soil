@@ -49,5 +49,10 @@ public class UserServiceimpl implements UserService {
 		String data=JSONArray.fromObject(list).toString();
 		return data;
 	}
+	@Override
+	public List<User> getList(Pagination pagination) {
+		// TODO Auto-generated method stub
+		return userMapper.list(pagination);
+	}
 	
 }

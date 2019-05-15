@@ -49,10 +49,10 @@ public class UserController {
 		 user.setPassword(SecurityUtil.strToMD5(user.getPassword()));
 		 User result=userService.login(user);
 		 if (result==null) {
-			return "management/login";
+			return "redirect:../index/login";
 		}else {
 			request.getSession().setAttribute("user", result);
-			return "management/index";
+			return "redirect:../index/index";
 		}
 	}
 	/**
@@ -63,8 +63,7 @@ public class UserController {
 	@RequestMapping("/loginOut")
 	public String loginOut(HttpServletRequest request) {
 		request.getSession().removeAttribute("user");
-//		request.getSession().removeAttribute("errorinfo");
-		return "management/login";
+		return "login";
 	}
 	
 	/**

@@ -32,6 +32,24 @@ public class Soil {
 	//描述
 	private String description;
 	
+	///标题
+	private String title;
+	
+	//副标题
+	private String secondtitle;
+	
+	public String getTitle() {
+		return title;
+	}
+	public String getSecondtitle() {
+		return secondtitle;
+	}
+	public void setSecondtitle(String secondtitle) {
+		this.secondtitle = secondtitle;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
 	public String getDescription() {
 		return description;
 	}

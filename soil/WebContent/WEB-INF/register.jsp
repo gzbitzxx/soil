@@ -99,7 +99,7 @@
         	<span class="or">or</span>
         	<p>已有土地租出网账号：
         	    <span class="marTop10">
-        	        <a class="regBtn log-in marTop10" href="login.html">直接登录<i></i></a>
+        	        <a class="regBtn log-in marTop10" href="login">直接登录<i></i></a>
         	    </span>
         	</p>
         	<p>使用以下账号直接登录</p>

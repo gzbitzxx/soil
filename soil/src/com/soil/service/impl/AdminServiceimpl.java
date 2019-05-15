@@ -50,4 +50,10 @@ public class AdminServiceimpl implements AdminService {
 		adminMapper.insert(t);
 		
 	}
+
+	@Override
+	public List<Admin> getList(Pagination pagination) {
+		// TODO Auto-generated method stub
+		return adminMapper.list(pagination);
+	}
 }

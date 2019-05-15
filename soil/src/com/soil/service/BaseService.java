@@ -1,6 +1,9 @@
 package com.soil.service;
 
+import java.util.List;
+
 import com.soil.util.Pagination;
+
 
 public interface BaseService<T> {
 	/**
@@ -14,6 +17,13 @@ public interface BaseService<T> {
 	 * @return  json 数据
 	 */
 	public String list(Pagination pagination);
+	
+	/**
+	 * 获取列表
+	 * @param pagination 分页条件
+	 * @return  json 数据
+	 */
+	public List<T> getList(Pagination pagination);
 	
 	/**
 	 * 删除

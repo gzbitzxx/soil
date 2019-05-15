@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
+	<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,11 +47,11 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	  <span class="menu"></span>
 			<div class="top-menu">
 				<ul>
-                    <li><a href="index"> <i class="fa fa-home"></i>首页</a></li>
-                    <li><a href="about"><i class="fa fa-star"> </i>我要找地</a></li>
-                    <li><a href="contact"><i class="fa fa-thumbs-up"> </i>土地资讯</a></li>
-                    <li><a class="active scroll"  href="services"><i class="fa fa-picture-o"> </i>帮助中心</a></li>
-                    <li><a href="login"><i class="fa fa-envelope-o"> </i>登录/注册</a></li>
+                    <li><a href="../index/index"> <i class="fa fa-home"></i>首页</a></li>
+                    <li><a href="../index/about"><i class="fa fa-star"> </i>我要找地</a></li>
+                    <li><a href="../index/contact"><i class="fa fa-thumbs-up"> </i>土地资讯</a></li>
+                    <li><a class="active scroll"  href="../index/services"><i class="fa fa-picture-o"> </i>帮助中心</a></li>
+                    <li><a href="../index/login"><i class="fa fa-envelope-o"> </i>登录/注册</a></li>
                     <div class="clearfix"></div>
                 </ul>
 			 </div>

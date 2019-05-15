@@ -46,4 +46,10 @@ public class MessageServiceimpl implements MessageService {
 		
 	}
 
+	@Override
+	public List<Message> getList(Pagination pagination) {
+		// TODO Auto-generated method stub
+		return messageMapper.list(pagination);
+	}
+
 }
