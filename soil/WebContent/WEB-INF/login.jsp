@@ -15,7 +15,7 @@
 <body style>
     <div class="head-logo">
         <div class="head-main mar">
-            <a href="index.html" >
+            <a href="index" >
                 <img src="../web/soil/images/d-logo.png" >
             </a>
             
@@ -59,7 +59,7 @@
 	    			                <span>正 在 登 录</span>
 	    		                </span> 
  			                    <p class="register">还没有土地租出网账号？
- 			                    <a class="regBtn" href="register.html">立即注册<i></i>
+ 			                    <a class="regBtn" href="register">立即注册<i></i>
  			                    </a>
  			                </p>
                         </div>

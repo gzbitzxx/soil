@@ -141,7 +141,7 @@ a:-webkit-any-link {
 	<div class="header">
 		<div class="col-xs-4">
 			<div class="logo">
-				<a href="index.html"><img src="../web/soil/images/logo.png" alt="" /></a>
+				<a href="index"><img src="../web/soil/images/logo.png" alt="" /></a>
 			</div>
 		</div>
 		<div class="col-xs-8 header_right">

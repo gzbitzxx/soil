@@ -27,7 +27,7 @@
 <body style="">
 <div class="head-logo">
     <div class="head-main mar">
-       <a href="index.html">
+       <a href="index">
             <img src="../web/soil/images/d-logo.png" /></a>
     </div>
 </div>

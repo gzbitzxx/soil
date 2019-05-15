@@ -18,10 +18,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <link href="../web/soil/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <script src="../web/soil/js/jquery-1.11.1.min.js"></script>
 <link href="../web/soil/css/style.css" rel='stylesheet' type='text/css' />
+
 <link href='#css?family=Grand+Hotel:400' rel='stylesheet'
 	type='text/css'>
+	
 <link href='#css?family=Roboto'
 	rel='stylesheet:100,300,400,500,600,700,800,900' type='text/css'>
+	
 <!-- Menu -->
 <link href="../web/soil/css/Lookup.css" rel='stylesheet' type='text/css' />
 <link rel="stylesheet" href="../web/soil/fonts/css/font-awesome.min.css">
@@ -31,7 +34,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <div class="header">
 	<div class="col-xs-4">
 	  <div class="logo">
-		<a href="index.html"><img src="../web/soil/images/logo.png" alt=""/></a>
+		<a href="index"><img src="../web/soil/images/logo.png" alt=""/></a>
 	  </div>
 	</div>
 	<div class="col-xs-8 header_right">
@@ -70,7 +73,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 <div class="want_main">
     <div class="want_title">
-        <a href="index.html">土地租出网</a> &gt; 
+        <a href="index">土地租出网</a> &gt; 
         <a href="#">我要找地</a> &gt;
         <a href="#" title="全国土地">全国土地</a>        
     </div>
@@ -895,11 +898,11 @@ function hideURLbar(){ window.scrollTo(0,1); }
            <ul class="pagination"> 
                 <li class="a-no"><a href="javascript:;">上一页</a></li>
                 <li class="active"><a href="#" data-page="1">1</a></li>
-                <li ><a href="about.html" data-page="2">2</a></li>
-                <li><a href="about.html" data-page="3">3</a></li>
-                <li><a href="about.html" data-page="4">4</a></li>
-                <li><a href="about.html" data-page="...">...</a></li>
-                <li><a href="about.html">下一页</a></li>
+                <li ><a href="about" data-page="2">2</a></li>
+                <li><a href="about" data-page="3">3</a></li>
+                <li><a href="about" data-page="4">4</a></li>
+                <li><a href="about" data-page="...">...</a></li>
+                <li><a href="about">下一页</a></li>
             </ul>     
         </div>
     </div>        
