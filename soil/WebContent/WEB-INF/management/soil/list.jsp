@@ -78,12 +78,12 @@
 								text : '价格'
 							},
 							{
-								key : 'length',
-								text : '长度'
+								key : 'method',
+								text : '使用方式'
 							},
 							{
-								key : 'width',
-								text : '宽度'
+								key : 'year',
+								text : '年限'
 							},
 							{
 								width : '100px',
@@ -162,7 +162,53 @@
 				<form id="data" action="../soils/add" method="POST" enctype="multipart/form-data">
 					<div class="modal-body">
 						<input type="hidden" id="id">
-						<div class="row">
+						<div class="col-lg-12">
+								<div class="form-group" lang="title">
+									<label for="username">标题：</label> <input type="text"
+										class="form-control" name="title" id="title"
+										placeholder="标题" data-val="true"
+										data-val-required="请填写 &#39;标题&#39;。"> <span
+										class="field-validation-error" data-valmsg-for="title"
+										data-valmsg-replace="true"></span>
+								</div>
+							</div>
+							<div class="col-lg-12">
+								<div class="form-group" lang="secondtitle">
+									<label for="secondtitle">副标题：</label> <input type="text"
+										class="form-control" name="secondtitle" id="secondtitle"
+										placeholder="副标题" data-val="true"
+										data-val-required="请填写 &#39;副标题&#39;。"> <span
+										class="field-validation-error" data-valmsg-for="secondtitle"
+										data-valmsg-replace="true"></span>
+								</div>
+							</div>
+							<div class="col-lg-12">
+								<div class="form-group" lang="secondtitle">
+									<label for="method">使用方式：</label> 
+									<select name="method"
+										id="method" class="selectpicker form-control"
+										data-live-search="true">
+										<option value="出租" selected>出租</option>
+										<option value="转让">转让</option>
+										
+									</select>
+								</div>
+							</div>
+							<div class="col-lg-12">
+								<div class="form-group" lang="secondtitle">
+									<label for="year">年限：</label> 
+									<select name="year"
+										id="year" class="selectpicker form-control"
+										data-live-search="true">
+										<option value="一年以上">一年以上</option>
+										<option value="两年以上">两年以上</option>
+										<option value="三年以上">三年以上</option>
+										<option value="四年以上">四年以上</option>
+										<option value="五年以上">五年以上</option>
+										<option value="其他">其他</option>
+									</select>
+								</div>
+							</div>
 							<div class="col-lg-12">
 								<div class="form-group" lang="username">
 									<label for="username">所在区域：</label> <input type="text"
@@ -246,7 +292,9 @@
 									data-dismiss="modal">关闭</button>
 								<button type="submit" class="btn btn-primary" id="add">保存</button>
 							</div>
+							</div>
 				</form>
+				
 			</div>
 			<!-- /.modal-content -->
 		</div>

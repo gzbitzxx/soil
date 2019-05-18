@@ -4,7 +4,7 @@
 <mapper namespace="com.soil.mapper.SoilMapper">
 	<!-- 查询SQL片段 -->
 	<sql id="select">
-		id,userid,region,price,type,length,width,picture,state,createtime,description,title,secondtitle
+		id,userid,region,price,type,length,width,picture,state,createtime,description,title,secondtitle,method,year
 	</sql>
 	
 	<!-- 筛选片段 -->
@@ -16,8 +16,8 @@
 	<!-- 添加信息 -->
 	<insert id="insert" parameterType="soil">
 		INSERT INTO
-		soil (id,userid,region,price,type,length,width,picture,state,createtime,description,title,secondtitle)
-		VALUES(#{id},#{userId},#{region},#{price},#{type},#{length},#{width},#{picture},#{state},#{createTime},#{description},#{title},#{secondtitle})
+		soil (id,userid,region,price,type,length,width,picture,state,createtime,description,title,secondtitle,method,year)
+		VALUES(#{id},#{userId},#{region},#{price},#{type},#{length},#{width},#{picture},#{state},#{createTime},#{description},#{title},#{secondtitle},#{method},#{year})
 	</insert>
 
 	<!-- 查询分页数据 -->
@@ -66,6 +66,8 @@
 		description=#{description},
 		title=#{title},
 		secondtitle=#{secondtitle},
+		method=#{method},
+		year=#{year},
 		where id=#{id}
 	</update>
 </mapper>

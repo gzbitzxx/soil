@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.soil.service.SoilTypeService;
 import com.soil.service.UserService;
 
 @Controller
@@ -14,6 +15,11 @@ public class CommonController {
 	@Autowired
 	@Qualifier("userService")
 	private UserService userService;
+	
+	@Autowired
+	@Qualifier("soilTypeService")
+	private SoilTypeService soilTypeService;
+	
 	
 	@RequestMapping("/login")
 	public String toFrame() {

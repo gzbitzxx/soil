@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soil.mapper.AreaMapper">
+	<!-- 查询SQL片段 -->
+	<sql id="select">
+		a.id id,a.name name,a.parentid parentid,a.code code,ar.name parentName
+	</sql>
+	
+	<!-- 筛选片段 -->
+	<sql id="serach">
+		where a.name like '%${keyword}%'
+	</sql>
+	
+	<!-- 添加信息 -->
+	<insert id="insert" parameterType="area">
+		INSERT INTO
+		area (id,name,parentid,code)
+		VALUES(#{id},#{name},#{parentid},#{code})
+	</insert>
+
+	<!-- 查询分页数据 -->
+	<select id="list" parameterType="com.soil.util.Pagination"
+		resultType="area">
+		SELECT
+		<include refid="select" />
+		from area a LEFT join area ar on a.parentid=ar.id
+		<include refid="serach" />
+		LIMIT #{skipNum},#{takeNum}
+	</select>
+
+	<!-- 查询分页条数 -->
+	<select id="count" parameterType="com.soil.util.Pagination"
+		resultType="int">
+		SELECT COUNT(*) from area a LEFT join area ar on a.parentid=ar.id
+		<include refid="serach" />
+		LIMIT #{skipNum},#{takeNum}
+	</select>
+
+	<!-- 删除信息 -->
+	<delete id="delete" parameterType="area">
+		DELETE FROM area WHERE
+		id=#{id}
+	</delete>
+
+	<!-- 根据Id查询信息 -->
+	<select id="findById" parameterType="string" resultType="area">
+		select
+		<include refid="select" />
+		from area a LEFT join area ar on a.parentid=ar.id where a.id=#{id}
+	</select>
+
+	<!-- 更新信息 -->
+	<update id="update" parameterType="area">
+		UPDATE area set
+		name=#{name},
+		parentid=#{parentid},
+		code=#{code}
+		where id=#{id}
+	</update>
+	
+	
+	<select id="findIDAndNumber" resultType="com.soil.util.SelectCustom" >
+	SELECT id value,`name` name FROM area
+	</select>
+	
+</mapper>

@@ -76,8 +76,20 @@
                     <span class="iconfont icon-iconfontxiangyou"></span>
                 </a>
             </li>
+             <li>
+                <a href="javascript:;" url="../area/toList" tab-id="4">
+                    <i class="iconfont icon-web-channel"></i> 区域管理
+                    <span class="iconfont icon-iconfontxiangyou"></span>
+                </a>
+            </li>
             <li>
-                <a href="javascript:;" url="../soils/toList" tab-id="4">
+                <a href="javascript:;" url="../soiltype/toList" tab-id="5">
+                    <i class="iconfont icon-web-channel"></i> 土地类型管理
+                    <span class="iconfont icon-iconfontxiangyou"></span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;" url="../soils/toList" tab-id="6">
                     <i class="iconfont icon-web-channel"></i> 土地信息管理
                     <span class="iconfont icon-iconfontxiangyou"></span>
                 </a>

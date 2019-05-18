@@ -21,8 +21,10 @@ public class Soil {
 	private int width;
 	//图片
 	private String picture;
+	
 	//状态（是否已出租）
 	private boolean state;
+	
 	//创建时间
 	private Date createTime;
 	
@@ -38,6 +40,25 @@ public class Soil {
 	//副标题
 	private String secondtitle;
 	
+	//方式（出租|转让）
+	private String method;
+	
+	//年限
+	private String year;
+	
+	
+	public String getMethod() {
+		return method;
+	}
+	public void setMethod(String method) {
+		this.method = method;
+	}
+	public String getYear() {
+		return year;
+	}
+	public void setYear(String year) {
+		this.year = year;
+	}
 	public String getTitle() {
 		return title;
 	}

@@ -24,6 +24,12 @@
 		
 	<bean name="adminService"
 		class="com.soil.service.impl.AdminServiceimpl" />
+		
+		<bean name="soilTypeService"
+		class="com.soil.service.impl.SoilTypeServiceimpl" />
+		
+		<bean name="areaService"
+		class="com.soil.service.impl.AreaServiceimpl" />
 
 
 </beans>
