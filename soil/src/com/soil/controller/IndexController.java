@@ -76,6 +76,15 @@ public class IndexController {
 	}
 	
 	/***
+	 * 帮助中心
+	 * @return
+	 */
+	@RequestMapping("/detail")
+	public String detail() {
+		return "details";
+	}
+	
+	/***
 	 * 注册
 	 * @return
 	 */

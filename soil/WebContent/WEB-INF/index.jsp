@@ -378,7 +378,7 @@ a:-webkit-any-link {
 						<h3> ${soil.type} </h3>
 						<p>
 							${soil.title} （${soil.secondtitle}）</br>区域：${soil.region}</br>用途：${soil.description}<span>
-								<a href="#">[...]</a>
+								<a href="../index/detail">[查看详情]</a>
 							</span>
 						</p>
 					</div>
