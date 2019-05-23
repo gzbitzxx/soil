@@ -51,4 +51,11 @@ public class SoilServiceimpl implements SoilService {
 		// TODO Auto-generated method stub
 		return soilMapper.list(pagination);
 	}
+
+	@Override
+	public Soil findSoilById(String id) {
+		// TODO Auto-generated method stub
+		Soil soil=soilMapper.findById(id);
+		return soil;
+	}
 }

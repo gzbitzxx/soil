@@ -2,6 +2,7 @@ package com.soil.service;
 
 import java.util.List;
 
+import com.soil.pojo.Soil;
 import com.soil.util.Pagination;
 
 
@@ -37,6 +38,8 @@ public interface BaseService<T> {
 	 * @return 信息
 	 */
 	public String findById(String id);
+	
+	
 	/**
 	 * 根据id修改信息
 	 * @param user 信息
