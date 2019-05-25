@@ -114,4 +114,13 @@ public class IndexController {
 		return "login";
 	}
 	
+	/***
+	 * 注册
+	 * @return
+	 */
+	@RequestMapping("foundSoil")
+	public String foundSoil() {
+		return "seek";
+	}
+	
 }
