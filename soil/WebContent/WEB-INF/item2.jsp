@@ -378,7 +378,7 @@
 											style="float: left;">高青</span>
 									</div>
 
-									<ul class="content"></ul>
+									<ul class="content" id="communication"></ul>
 
 									<div class="footer">
 										<div class="icon">
@@ -484,55 +484,57 @@
 
 <!-- ----------------交流界面------------------ -->
 <script type="text/javascript">
-	// 获取图片标签
-	var img = document.getElementById("icon");
-	var arr = [ "images/11.png", "images/22.png" ];
-	var tag = 0;
-	// 给图片对象绑定点击事件
-	img.onclick = function() {
-		// 根据当前显示的图片切换用户图片。
-		if (tag == 0) {
-			img.src = arr[1];
-			tag = 1;
-			console.log(img.src);
-		} else {
-			img.src = arr[0];
-			tag = 0;
-		}
-	}
+        // 获取图片标签
+        var img = document.getElementById("icon");
+        var arr = ["../web/soil/images/11.png","../web/soil/images/22.png"];
+        var tag = 0;
+        // 给图片对象绑定点击事件
+        img.onclick = function(){
+            // 根据当前显示的图片切换用户图片。
+            if(tag == 0){
+                img.src = arr[1];
+                tag = 1;
+                console.log(img.src);
+            }else{
+                img.src = arr[0];
+                tag = 0;
+            }
+        }
 
-	var btn = document.getElementById("btn");
-	var num = -1; //统计聊天记录
-	btn.onclick = function() {
-		// 判断用户内容是否为空
-		var text = document.getElementById("text").value;
-		if (text == "") {
-			alert("聊天内容不能为空");
-		} else {
-			// 把用户内容添加到区域区域
-			var content = document.getElementsByTagName("ul")[0];
-			content.innerHTML += "<li><img src='"+arr[tag]+"'/><span>" + text
-					+ "</span></li>"
-		}
+        var btn = document.getElementById("btn");
+        var num = -1; //统计聊天记录
+        btn.onclick = function(){
+            // 判断用户内容是否为空
+            var text = document.getElementById("text").value;
+            if(text == ""){
+                alert("聊天内容不能为空");
+            }
+            else{
+                // 把用户内容添加到区域区域
+                var content = document.getElementById("communication");
+                content.innerHTML += "<li><img src='"+arr[tag]+"'/><span>"+text+"</span></li>"
+            }
 
-		var imgs = content.getElementsByTagName("img");
-		var span = content.getElementsByTagName("span");
-		num++;
-		console.log(imgs[num]);
-		console.log(span[num]);
-		console.log(num);
-		// 判断当前聊天的用户
-		if (tag == 0) {
-			imgs[num].className = "imgleft";
-			span[num].className = "spanleft";
-		} else {
-			imgs[num].className = "imgright";
-			span[num].className = "spanright";
-		}
-		//清空聊天内容
-		document.getElementById("text").value = "";
+            var imgs = content.getElementsByTagName("img");
+            var span = content.getElementsByTagName("span");
+            num++;
+            console.log(imgs[num]);
+            console.log(span[num]);
+            console.log(num);
+            // 判断当前聊天的用户
+            if(tag == 0){
+                imgs[num].className = "imgleft";
+                span[num].className = "spanleft";
+            }else{
+                imgs[num].className = "imgright";
+                span[num].className = "spanright";
+            }
+            //清空聊天内容
+            document.getElementById("text").value= "";
+            
 
-	}
+        }
+
 </script>
 <!-- ----------------交流界面------------------ -->
 </html>

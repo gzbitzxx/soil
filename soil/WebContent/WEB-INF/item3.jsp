@@ -339,7 +339,7 @@
                             <span style="float: left;">李先生</span> 
                         </div>
                 
-                        <ul class="content"></ul>
+                        <ul class="content" id="communication"></ul>
 
                         <div class="footer">
                             <div class="icon"> <img src="../web/soil/images/11.png" alt="" id="icon"> </div>
@@ -436,7 +436,7 @@
 <script type="text/javascript">
         // 获取图片标签
         var img = document.getElementById("icon");
-        var arr = ["images/11.png","images/22.png"];
+        var arr = ["../web/soil/images/11.png","../web/soil/images/22.png"];
         var tag = 0;
         // 给图片对象绑定点击事件
         img.onclick = function(){
@@ -461,7 +461,7 @@
             }
             else{
                 // 把用户内容添加到区域区域
-                var content = document.getElementsByTagName("ul")[0];
+                var content = document.getElementById("communication");
                 content.innerHTML += "<li><img src='"+arr[tag]+"'/><span>"+text+"</span></li>"
             }
 
