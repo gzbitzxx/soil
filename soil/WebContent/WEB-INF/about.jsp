@@ -240,7 +240,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
             <div class="main"> 
                 <div class="main_img">
                                
-                        <a href="#" target="_blank" title="广州市番禺区沙北村32亩鱼塘出租（位置好、水源好、土质好）">
+                        <a href="../detail/item1" target="_blank" title="广州市番禺区沙北村32亩鱼塘出租（位置好、水源好、土质好）">
                             <img width="100%" height="100%" class="_lazy" src="../web/soil/images/images1.jpg" data-original="images/images1.jpg" alt="广州市番禺区沙北村32亩鱼塘出租（位置好、水源好、土质好）" style="display: inline;">
                         </a>
                         <div class="main_rt_scc">
@@ -249,7 +249,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
                     </div>
                     <div class="main_contentBox">
                         <div class="main_content_title">
-                            <a href="#" target="_blank" title="广州市番禺区沙北村32亩鱼塘出租（位置好、水源好、土质好）">
+                            <a href="../detail/item1" target="_blank" title="广州市番禺区沙北村32亩鱼塘出租（位置好、水源好、土质好）">
                                 <span ></span>广州市番禺区沙北村32亩鱼塘出租（位置好、水源好、土质好）
                             </a>
                         </div>
@@ -316,7 +316,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
                     </div>
                     <div class="main_contentBox">
                         <div class="main_content_title">
-                            <a href="#" target="_blank" title="东风200亩耕地 — 水浇地转让">
+                            <a href="../detail/item2" target="_blank" title="东风200亩耕地 — 水浇地转让">
                                 <span ></span>东风200亩耕地 — 水浇地转让
                             </a>
                         </div>
@@ -379,7 +379,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
                     </div>
                     <div class="main_contentBox">
                         <div class="main_content_title">
-                            <a href="#" target="_blank" title="贵阳120亩水田出租">
+                            <a href="../detail/item3" target="_blank" title="贵阳120亩水田出租">
                                 <span ></span>贵阳120亩水田出租
                             </a>
                         </div>

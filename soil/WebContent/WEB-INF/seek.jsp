@@ -56,41 +56,6 @@
 	<div class="clearfix"> </div>
 </div>
 
-<div></br></br></div>
-
-<body>
-<div class="header">
-	<div class="col-xs-4">
-	  <div class="logo">
-		<a href="index.html"><img src="images/logo.png" alt=""/></a>
-	  </div>
-	</div>
-	<div class="col-xs-8 header_right">
-	  <span class="menu"></span>
-			<div class="top-menu">
-				<ul>
-                    <li><a class="active scroll" href="index.html"> <i class="fa fa-home"></i>首页</a></li>
-                    <li><a href="about.html"><i class="fa fa-star"> </i>我要找地</a></li>
-                    <li><a href="contact.html"><i class="fa fa-thumbs-up"> </i>土地资讯</a></li>
-                    <li><a href="services.html"><i class="fa fa-picture-o"> </i>帮助中心</a></li>
-                    <li><a href="login.html"><i class="fa fa-envelope-o"> </i>登录/注册</a></li>
-                    <div class="clearfix"></div>
-                </ul>
-			 </div>
-			<!-- script for menu -->
-				<script>
-				$( "span.menu" ).click(function() {
-				  $( ".top-menu" ).slideToggle( "slow", function() {
-				    // Animation complete.
-				  });
-				});
-			</script>
-			<!-- script for menu -->
-	</div>
-	<div class="clearfix"> </div>
-</div>
-
-
 <div class="about_top">
     <div class="container">
         <div class="about">
@@ -99,11 +64,7 @@
             <img src="http://imgs01.dihe.cn/201712/2215/5a3cae3a6063b.jpg" title="自营" alt="自营"></a>
          </div>
 
-<style>
-    .area_choose{width: 578px;}
-    .area_choose .area_choose_title{width: 558px;}
-    .t_blockj_box .areaChoose{width: 300px;}
-</style>
+
        
 <div class="want_main">
 <div class="commission-seeking-container">
