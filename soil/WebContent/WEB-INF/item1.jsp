@@ -327,7 +327,7 @@
                             <span style="float: right;">16:00</span> 
                             <span style="float: left;">李先生</span> 
                         </div>
-                
+                 
                         <ul class="content" id="communication"></ul>
 
                         <div class="footer">

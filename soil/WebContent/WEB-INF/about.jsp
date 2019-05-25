@@ -917,7 +917,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 
     <div class="w_sidebar ">
-    <div class="w_sidebar_m1" title="我要租出土地"><a href="#" target="_blank" class=""><img width="100%" src="../web/soil/images/mian2.png" alt="我要租出土地"></a></div>
+    <div class="w_sidebar_m1" title="我要租出土地"><a href="insertSoil" target="_blank" class=""><img width="100%" src="../web/soil/images/mian2.png" alt="我要租出土地"></a></div>
     <div class="w_sidebar_m1" title="委托找地"><a href="foundSoil" target="_blank" class=""><img width="100%" src="../web/soil/images/mian3.png" alt="委托找地"></a></div>
     <div class="w_sidebar_content1">
         <div class="w_sidebar_title1">土地政策</div>

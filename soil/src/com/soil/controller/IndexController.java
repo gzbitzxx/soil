@@ -115,12 +115,22 @@ public class IndexController {
 	}
 	
 	/***
-	 * 注册
+	 *寻找土地
 	 * @return
 	 */
 	@RequestMapping("foundSoil")
 	public String foundSoil() {
 		return "seek";
+	}
+	
+	
+	/***
+	 *添加土地信息
+	 * @return
+	 */
+	@RequestMapping("insertSoil")
+	public String insertSoil() {
+		return "insert";
 	}
 	
 }
