@@ -11,17 +11,21 @@
 <link rel="shortcut icon" href="../web/favicon.ico" />
 <script type="application/x-javascript">
 	
+	
 	 
 addEventListener("load", function() { 
 	setTimeout(hideURLbar, 0); 
 	}, false); 
 function hideURLbar(){ window.scrollTo(0,1); } 
 
+
 </script>
 <link href="../web/soil/css/bootstrap.css" rel='stylesheet'
 	type='text/css' />
 <script src="../web/soil/js/jquery-1.11.1.min.js"></script>
 <link href="../web/soil/css/style.css" rel='stylesheet' type='text/css' />
+
+<link href="../web/soil/css/Lookup.css" rel='stylesheet' type='text/css' />
 
 <link href='#css?family=Grand+Hotel:400' rel='stylesheet'
 	type='text/css'>
@@ -117,7 +121,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 										<li><a href="#" title="海南">海南</a></li>
 										<li><a href="#" title="重庆">重庆</a></li>
 										<li><a href="#" title="四川">四川</a></li>
-										<li><a href="abouts?type=1" title="贵州">贵州</a></li>
+										<li><a href="about?type=1" title="贵州">贵州</a></li>
 										<li><a href="#" title="云南">云南</a></li>
 										<li><a href="#" title="西藏">西藏</a></li>
 										<li><a href="#" title="陕西">陕西</a></li>
@@ -259,116 +263,46 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="main">
 								<div class="main_img">
 
-									<a href="../detail/item1" target="_blank"
-										title="广州市番禺区沙北村32亩鱼塘出租（位置好、水源好、土质好）"> <img width="100%"
-										height="100%" class="_lazy"
-										src="../web/soil/images/images1.jpg"
-										data-original="images/images1.jpg"
-										alt="广州市番禺区沙北村32亩鱼塘出租（位置好、水源好、土质好）" style="display: inline;">
+									<a href="#" target="_blank" title="贵州遵义红花岗120亩有林地转让"> <img
+										width="100%" height="100%" class="_lazy"
+										src="../web/soil/images/ling7.jpg"
+										data-original="images/ling7.jpg" alt="贵州遵义红花岗120亩有林地转让"
+										style="display: inline;">
 									</a>
 									<div class="main_rt_scc">
-										<i class="fa fa-heart-o _collect_btn" data-supply_id="555054"></i>
+										<!-- <i class="fa fa-heart-o _collect_btn" data-supply_id="555054"></i> -->
 									</div>
 								</div>
 								<div class="main_contentBox">
 									<div class="main_content_title">
-										<a href="../detail/item1" target="_blank"
-											title="广州市番禺区沙北村32亩鱼塘出租（位置好、水源好、土质好）"> <span></span>广州市番禺区沙北村32亩鱼塘出租（位置好、水源好、土质好）
+										<a href="#" target="_blank" title="贵州遵义红花岗120亩有林地转让"> <span></span>贵州遵义红花岗120亩有林地转让
 										</a>
 									</div>
 									<div class="main_content">
 										<div class="main_content_tt">
-											<span class="main_ctn" title="水域及水利设施用地/坑塘,鱼塘,养殖"> <a
-												href="#">水域及水利设施用地</a>- <a href="#">坑塘水面</a>/ <a href="#">坑塘</a>,
-												<a href="#">鱼塘</a>, <a href="#">养殖</a>
+											<span class="main_ctn" title="林地-有林地/竹林,庄园,农庄"> <a
+												href="#">林地</a>- <a href="#">有林地</a>/ <a href="#">竹地</a>, <a
+												href="#">庄园</a>
 											</span> <span>出租</span>
 										</div>
 										<div class="main_content_dz">
 											<div class="dz_address padding-left0">
-												<div class="tt" title="广东-广州-番禺">
-													<a href="#">广东</a>-<a href="#">广州</a>-<a href="#">番禺</a>
-												</div>
-												<div class="clear"></div>
-												<div class="dz_position"></div>
-											</div>
-											<div class="dz_number">
-												<div class="tt" title="32.00亩">32.00亩</div>
-												<div class="clear"></div>
-												<div class="dz_number_position"></div>
-											</div>
-											<div class="dz_address">
-												<!-- <div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/1.png"></div>-->
-												<div class="tt" title="15年">15年</div>
-												<div class="clear"></div>
-											</div>
-											<div class="clear"></div>
-										</div>
-										<div class="main_content_list">
-											<ul class="w600">
-												<li class="type_recommend">店铺热推</li>
-												<li class="type_free">免看地费</li>
-												<li class="type_pic">多图</li>
-												<div class="clear"></div>
-											</ul>
-										</div>
-									</div>
-									<div class="main_rtt">
-										<div class="money">
-											2800<br>
-											<span>元/亩/年</span>
-										</div>
-									</div>
-									<div class="clear"></div>
-								</div>
-								<div class="clear"></div>
-							</div>
-						</div>
-
-
-						<div id="mainBox" class="_quick_collect_box">
-							<div class="main">
-								<div class="main_img">
-
-									<a href="#" target="_blank" title="东风200亩耕地 — 水浇地转让"> <img
-										width="100%" height="100%" class="_lazy"
-										src="../web/soil/images/200.jpg"
-										data-original="images/200.jpg" alt="东风200亩耕地 — 水浇地转让"
-										style="display: inline;">
-									</a>
-									<div class="main_rt_scc">
-										<i class="fa fa-heart-o _collect_btn" data-supply_id="555054"></i>
-									</div>
-								</div>
-								<div class="main_contentBox">
-									<div class="main_content_title">
-										<a href="../detail/item2" target="_blank"
-											title="东风200亩耕地 — 水浇地转让"> <span></span>东风200亩耕地 — 水浇地转让
-										</a>
-									</div>
-									<div class="main_content">
-										<div class="main_content_tt">
-											<span class="main_ctn" title="耕地-水浇地转包"> <a href="#">耕地</a>-
-												<a href="#">水浇地</a>
-											</span> <span>转包</span>
-										</div>
-										<div class="main_content_dz">
-											<div class="dz_address padding-left0">
 												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/4.png"></div>-->
-												<div class="tt" title="贵州-贵阳-乌当区">
-													<a href="#">贵州</a>-<a href="#">贵阳</a>-<a href="#">乌当区</a>
+												<div class="tt" title="贵州-遵义-红花岗">
+													<a href="#">贵州</a>-<a href="#">遵义</a>-<a href="#">红花岗</a>
 												</div>
 												<div class="clear"></div>
 												<div class="dz_position"></div>
 											</div>
 											<div class="dz_number">
 												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/9.png"></div>-->
-												<div class="tt" title="200.00亩">200.00亩</div>
+												<div class="tt" title="120.00亩">120.00亩</div>
 												<div class="clear"></div>
 												<div class="dz_number_position"></div>
 											</div>
 											<div class="dz_address">
 												<!-- <div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/1.png"></div>-->
-												<div class="tt" title="27年">27年</div>
+												<div class="tt" title="35年">35年</div>
 												<div class="clear"></div>
 											</div>
 											<div class="clear"></div>
@@ -383,7 +317,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									</div>
 									<div class="main_rtt">
 										<div class="money">
-											<span>面议</span>
+											面议<br>
+											<span>元/亩/年</span>
 										</div>
 									</div>
 									<div class="clear"></div>
@@ -397,41 +332,40 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="main">
 								<div class="main_img">
 
-									<a href="#" target="_blank" title="贵阳120亩水田出租"> <img
-										width="100%" height="100%" class="_lazy"
-										src="../web/soil/images/img4.jpg"
-										data-original="images/img4.jpg" alt="贵阳120亩水田出租"
-										style="display: inline;">
+									<a href="#" target="_blank" title="贵州黔东南苗族侗族凯里80亩林地 — 有林地转让">
+										<img width="100%" height="100%" class="_lazy"
+										src="../web/soil/images/ling1.jpg"
+										data-original="images/ling1.jpg"
+										alt="贵州黔东南苗族侗族凯里80亩林地 — 有林地转让" style="display: inline;">
 									</a>
 									<div class="main_rt_scc">
-										<i class="fa fa-heart-o _collect_btn" data-supply_id="555054"></i>
+										<!-- <i class="fa fa-heart-o _collect_btn" data-supply_id="555054"></i> -->
 									</div>
 								</div>
 								<div class="main_contentBox">
 									<div class="main_content_title">
-										<a href="../detail/item3" target="_blank" title="贵阳120亩水田出租">
-											<span></span>贵阳120亩水田出租
+										<a href="#" target="_blank" title="贵州黔东南苗族侗族凯里80亩林地 — 有林地转让">
+											<span></span>贵州黔东南苗族侗族凯里80亩林地 — 有林地转让
 										</a>
 									</div>
 									<div class="main_content">
 										<div class="main_content_tt">
-											<span class="main_ctn" title="耕地-水田/水稻,莲藕出租"> <a
-												href="#">耕地</a>- <a href="#">水田</a>/ <a href="#">水稻</a>, <a
-												href="#">莲藕</a>
-											</span> <span>出租</span>
+											<span class="main_ctn" title="林地-有林地  转让"> <a href="#">林地</a>-
+												<a href="#">有林地</a>
+											</span> <span>转让</span>
 										</div>
 										<div class="main_content_dz">
 											<div class="dz_address padding-left0">
 												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/4.png"></div>-->
-												<div class="tt" title="贵州-贵阳-乌当">
-													<a href="#">贵州</a>-<a href="#">贵阳</a>-<a href="#">乌当</a>
+												<div class="tt" title="贵州-黔东南苗族侗族-凯里">
+													<a href="#">贵州</a>-<a href="#">黔东南苗族侗族</a>-<a href="#">凯里</a>
 												</div>
 												<div class="clear"></div>
 												<div class="dz_position"></div>
 											</div>
 											<div class="dz_number">
 												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/9.png"></div>-->
-												<div class="tt" title="120.00亩">120.00亩</div>
+												<div class="tt" title="80.00亩">80.00亩</div>
 												<div class="clear"></div>
 												<div class="dz_number_position"></div>
 											</div>
@@ -445,7 +379,6 @@ function hideURLbar(){ window.scrollTo(0,1); }
 										<div class="main_content_list">
 											<ul class="w600">
 												<li class="type_recommend">个人地源</li>
-												<li class="type_free">电话核实</li>
 
 												<div class="clear"></div>
 											</ul>
@@ -453,8 +386,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									</div>
 									<div class="main_rtt">
 										<div class="money">
-											1200</br>
-											<span>元/亩/年</span>
+											<span>面议</span>
 										</div>
 									</div>
 									<div class="clear"></div>
@@ -468,111 +400,41 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="main">
 								<div class="main_img">
 
-									<a href="#" target="_blank" title="昭通市昭阳区650亩其他园地出租"> <img
-										width="100%" height="100%" class="_lazy"
-										src="../web/soil/images/yuan8.jpg"
-										data-original="images/yuan8.jpg" alt="昭通市昭阳区650亩其他园地出租"
+									<a href="#" target="_blank" title="贵州贵阳市辖区100亩林地 — 其他林地转让">
+										<img width="100%" height="100%" class="_lazy"
+										src="../web/soil/images/ling2.jpg"
+										data-original="images/ling2.jpg" alt="贵州贵阳市辖区100亩林地 — 其他林地转让"
 										style="display: inline;">
 									</a>
 									<div class="main_rt_scc">
-										<i class="fa fa-heart-o _collect_btn" data-supply_id="555054"></i>
+										<!-- <i class="fa fa-heart-o _collect_btn" data-supply_id="555054"></i> -->
 									</div>
 								</div>
 								<div class="main_contentBox">
 									<div class="main_content_title">
-										<a href="#" target="_blank" title="昭通市昭阳区650亩其他园地出租"> <span></span>昭通市昭阳区650亩其他园地出租
+										<a href="#" target="_blank" title="贵州贵阳市辖区100亩林地 — 其他林地转让">
+											<span></span>贵州贵阳市辖区100亩林地 — 其他林地转让
 										</a>
 									</div>
 									<div class="main_content">
 										<div class="main_content_tt">
-											<span class="main_ctn" title="园地-其他园地/药材,经济林、白芨出租"> <a
-												href="#">园地</a>- <a href="#">其他园地</a>/ <a href="#">药材</a>, <a
-												href="#">经济林</a>, <a href="#">白芨</a>
-											</span> <span>出租</span>
+											<span class="main_ctn" title="林地-其他林地   转让"> <a
+												href="#">林地</a>- <a href="#">其他林地</a>/
+
+											</span> <span>转让</span>
 										</div>
 										<div class="main_content_dz">
 											<div class="dz_address padding-left0">
 												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/4.png"></div>-->
-												<div class="tt" title="云南-昭通-鲁甸县">
-													<a href="#">云南</a>-<a href="#">昭通</a>-<a href="#">鲁甸县</a>
+												<div class="tt" title="贵州-贵阳">
+													<a href="#">贵州</a>-<a href="#">贵阳</a><a href="#"></a>
 												</div>
 												<div class="clear"></div>
 												<div class="dz_position"></div>
 											</div>
 											<div class="dz_number">
 												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/9.png"></div>-->
-												<div class="tt" title="650.00亩">650.00亩</div>
-												<div class="clear"></div>
-												<div class="dz_number_position"></div>
-											</div>
-											<div class="dz_address">
-												<!-- <div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/1.png"></div>-->
-												<div class="tt" title="35年">35年</div>
-												<div class="clear"></div>
-											</div>
-											<div class="clear"></div>
-										</div>
-										<div class="main_content_list">
-											<ul class="w600">
-												<li class="type_recommend">店铺热推</li>
-												<li class="type_free">分站地源</li>
-												<li class="type_pic">多图</li>
-												<div class="clear"></div>
-											</ul>
-										</div>
-									</div>
-									<div class="main_rtt">
-										<div class="money">
-											300<br>
-											<span>元/亩/年</span>
-										</div>
-									</div>
-									<div class="clear"></div>
-								</div>
-								<div class="clear"></div>
-							</div>
-						</div>
-
-
-						<div id="mainBox" class="_quick_collect_box">
-							<div class="main">
-								<div class="main_img">
-
-									<a href="#" target="_blank" title="黎明关水族乡200亩水田转包"> <img
-										width="100%" height="100%" class="_lazy"
-										src="../web/soil/images/img6.jpg"
-										data-original="images/img6.jpg" alt="黎明关水族乡200亩水田转包"
-										style="display: inline;">
-									</a>
-									<div class="main_rt_scc">
-										<i class="fa fa-heart-o _collect_btn" data-supply_id="555054"></i>
-									</div>
-								</div>
-								<div class="main_contentBox">
-									<div class="main_content_title">
-										<a href="#" target="_blank" title="黎明关水族乡200亩水田转包"> <span></span>黎明关水族乡200亩水田转包
-										</a>
-									</div>
-									<div class="main_content">
-										<div class="main_content_tt">
-											<span class="main_ctn" title="耕地-水田/水稻,贵州省荔波县转包"> <a
-												href="#">耕地</a>- <a href="#">水田</a>/ <a href="#">水稻</a>, <a
-												href="#">贵州省荔波县</a>,
-
-											</span> <span>转包</span>
-										</div>
-										<div class="main_content_dz">
-											<div class="dz_address padding-left0">
-												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/4.png"></div>-->
-												<div class="tt" title="贵州-黔南布依族苗族-荔波县">
-													<a href="#">贵州</a>-<a href="#">黔南布依族苗族</a>-<a href="#">荔波县</a>
-												</div>
-												<div class="clear"></div>
-												<div class="dz_position"></div>
-											</div>
-											<div class="dz_number">
-												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/9.png"></div>-->
-												<div class="tt" title="200.00亩">200.00亩</div>
+												<div class="tt" title="100.00亩">100.00亩</div>
 												<div class="clear"></div>
 												<div class="dz_number_position"></div>
 											</div>
@@ -586,7 +448,145 @@ function hideURLbar(){ window.scrollTo(0,1); }
 										<div class="main_content_list">
 											<ul class="w600">
 												<li class="type_recommend">个人地源</li>
-												<li class="type_free">电话核实</li>
+												<li class="type_free"></li>
+
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+									<div class="main_rtt">
+										<div class="money">
+											面议<span></span>
+										</div>
+									</div>
+									<div class="clear"></div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+
+
+						<div id="mainBox" class="_quick_collect_box">
+							<div class="main">
+								<div class="main_img">
+
+									<a href="#" target="_blank" title="贵州省贵阳市花溪区17亩有林地转让"> <img
+										width="100%" height="100%" class="_lazy"
+										src="../web/soil/images/ling3.jpg"
+										data-original="images/ling3.jpg" alt="贵州省贵阳市花溪区17亩有林地转让"
+										style="display: inline;">
+									</a>
+									<div class="main_rt_scc">
+										<!-- <i class="fa fa-heart-o _collect_btn" data-supply_id="555054"></i> -->
+									</div>
+								</div>
+								<div class="main_contentBox">
+									<div class="main_content_title">
+										<a href="#" target="_blank" title="贵州省贵阳市花溪区17亩有林地转让"> <span></span>贵州省贵阳市花溪区17亩有林地转让
+										</a>
+									</div>
+									<div class="main_content">
+										<div class="main_content_tt">
+											<span class="main_ctn" title="林地-有林地/林地,庄园   转让"> <a
+												href="#">林地</a>- <a href="#">有林地</a>/ <a href="#">林地</a>, <a
+												href="#">庄园</a>
+											</span> <span>转让</span>
+										</div>
+										<div class="main_content_dz">
+											<div class="dz_address padding-left0">
+												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/4.png"></div>-->
+												<div class="tt" title="贵州-贵阳-花溪">
+													<a href="#">贵州</a>-<a href="#">贵阳</a>-<a href="#">花溪</a>
+												</div>
+												<div class="clear"></div>
+												<div class="dz_position"></div>
+											</div>
+											<div class="dz_number">
+												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/9.png"></div>-->
+												<div class="tt" title="17.00亩">17.00亩</div>
+												<div class="clear"></div>
+												<div class="dz_number_position"></div>
+											</div>
+											<div class="dz_address">
+												<!-- <div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/1.png"></div>-->
+												<div class="tt" title="39年">39年</div>
+												<div class="clear"></div>
+											</div>
+											<div class="clear"></div>
+										</div>
+										<div class="main_content_list">
+											<ul class="w600">
+												<li class="type_free">个人地源</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+									<div class="main_rtt">
+										<div class="money">
+											面议<span></span>
+										</div>
+									</div>
+									<div class="clear"></div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+
+
+						<div id="mainBox" class="_quick_collect_box">
+							<div class="main">
+								<div class="main_img">
+
+									<a href="#" target="_blank"
+										title="贵州黔东南苗族侗族从江县贯洞镇腊阳136亩林地 — 有林地入股"> <img width="100%"
+										height="100%" class="_lazy" src="../web/soil/images/ling4.jpg"
+										data-original="images/ling4.jpg"
+										alt="贵州黔东南苗族侗族从江县贯洞镇腊阳136亩林地 — 有林地入股" style="display: inline;">
+									</a>
+									<div class="main_rt_scc">
+										<!-- <i class="fa fa-heart-o _collect_btn" data-supply_id="555054"></i> -->
+									</div>
+								</div>
+								<div class="main_contentBox">
+									<div class="main_content_title">
+										<a href="#" target="_blank"
+											title="贵州黔东南苗族侗族从江县贯洞镇腊阳136亩林地 — 有林地入股"> <span></span>贵州黔东南苗族侗族从江县贯洞镇腊阳136亩林地
+											— 有林地入股
+										</a>
+									</div>
+									<div class="main_content">
+										<div class="main_content_tt">
+											<span class="main_ctn" title="林地-有林地/林地  入股"> <a
+												href="#">林地</a>- <a href="#">有林地</a>/ <a href="#">林地</a>
+
+
+											</span> <span>入股</span>
+										</div>
+										<div class="main_content_dz">
+											<div class="dz_address padding-left0">
+												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/4.png"></div>-->
+												<div class="tt" title="贵州-黔东南苗族侗族-从江县">
+													<a href="#">贵州</a>-<a href="#">黔东南布依族苗族</a>-<a href="#">从江</a>
+												</div>
+												<div class="clear"></div>
+												<div class="dz_position"></div>
+											</div>
+											<div class="dz_number">
+												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/9.png"></div>-->
+												<div class="tt" title="136.00亩">136.00亩</div>
+												<div class="clear"></div>
+												<div class="dz_number_position"></div>
+											</div>
+											<div class="dz_address">
+												<!-- <div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/1.png"></div>-->
+												<div class="tt" title="44年">44年</div>
+												<div class="clear"></div>
+											</div>
+											<div class="clear"></div>
+										</div>
+										<div class="main_content_list">
+											<ul class="w600">
+												<li class="type_recommend">个人地源</li>
 
 												<div class="clear"></div>
 											</ul>
@@ -608,46 +608,47 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="main">
 								<div class="main_img">
 
-									<a href="#" target="_blank" title="黔南三都县110.00亩种植土地出租"> <img
-										width="100%" height="100%" class="_lazy"
-										src="../web/soil/images/img43.jpg"
-										data-original="images/img43.jpg" alt="黔南三都县110.00亩种植土地出租"
-										style="display: inline;">
+									<a href="#" target="_blank" title="贵州毕节七星关区水箐镇燎原370亩林地 — 有林地转让">
+										<img width="100%" height="100%" class="_lazy"
+										src="../web/soil/images/ling5.jpg"
+										data-original="images/ling5.jpg"
+										alt="贵州毕节七星关区水箐镇燎原370亩林地 — 有林地转让" style="display: inline;">
 									</a>
 									<div class="main_rt_scc">
-										<i class="fa fa-heart-o _collect_btn" data-supply_id="555054"></i>
+										<!-- <i class="fa fa-heart-o _collect_btn" data-supply_id="555054"></i> -->
 									</div>
 								</div>
 								<div class="main_contentBox">
 									<div class="main_content_title">
-										<a href="#" target="_blank" title="黔南三都县110.00亩种植土地出租"> <span></span>黔南三都县110.00亩种植土地出租
+										<a href="#" target="_blank"
+											title="贵州毕节七星关区水箐镇燎原370亩林地 — 有林地转让"> <span></span>贵州毕节七星关区水箐镇燎原370亩林地
+											— 有林地转让
 										</a>
 									</div>
 									<div class="main_content">
 										<div class="main_content_tt">
-											<span class="main_ctn" title="耕地-旱地/旱地,农庄出租"> <a
-												href="#">耕地</a>- <a href="#">旱地</a>/ <a href="#">旱地</a>, <a
-												href="#">农庄</a>
-											</span> <span>出租</span>
+											<span class="main_ctn" title="林地-有林地/林地   转让"> <a
+												href="#">林地</a>- <a href="#">有林地</a>/ <a href="#">林地</a>
+											</span> <span>转让</span>
 										</div>
 										<div class="main_content_dz">
 											<div class="dz_address padding-left0">
 												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/4.png"></div>-->
-												<div class="tt" title="贵州-黔南布依族苗族-三都县">
-													<a href="#">贵州</a>-<a href="#">黔南布依族苗族</a>-<a href="#">三都县</a>
+												<div class="tt" title="贵州-毕节-七星关">
+													<a href="#">贵州</a>-<a href="#">毕节</a>-<a href="#">七星关</a>
 												</div>
 												<div class="clear"></div>
 												<div class="dz_position"></div>
 											</div>
 											<div class="dz_number">
 												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/9.png"></div>-->
-												<div class="tt" title="110.00亩">110.00亩</div>
+												<div class="tt" title="370.00亩">370.00亩</div>
 												<div class="clear"></div>
 												<div class="dz_number_position"></div>
 											</div>
 											<div class="dz_address">
 												<!-- <div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/1.png"></div>-->
-												<div class="tt" title="14年">14年</div>
+												<div class="tt" title="41年">41年</div>
 												<div class="clear"></div>
 											</div>
 											<div class="clear"></div>
@@ -655,14 +656,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 										<div class="main_content_list">
 											<ul class="w600">
 												<li class="type_recommend">个人地源</li>
-												<li class="type_free">电话核实</li>
 												<div class="clear"></div>
 											</ul>
 										</div>
 									</div>
 									<div class="main_rtt">
 										<div class="money">
-											800<br>
+											6800<br>
 											<span>元/亩/年</span>
 										</div>
 									</div>
@@ -673,50 +673,52 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						</div>
 
 
+
+
+
 						<div id="mainBox" class="_quick_collect_box">
 							<div class="main">
 								<div class="main_img">
 
-									<a href="#" target="_blank" title="铜仁3.00亩农用地出租"> <img
+									<a href="#" target="_blank" title="贵州省紫云县117亩林地资源林权转让"> <img
 										width="100%" height="100%" class="_lazy"
-										src="../web/soil/images/images1.jpg"
-										data-original="images/images1.jpg" alt="铜仁3.00亩农用地出租"
+										src="../web/soil/images/ling6.jpg"
+										data-original="images/ling6.jpg" alt="贵州省紫云县117亩林地资源林权转让"
 										style="display: inline;">
 									</a>
 									<div class="main_rt_scc">
-										<i class="fa fa-heart-o _collect_btn" data-supply_id="555054"></i>
+										<!-- <i class="fa fa-heart-o _collect_btn" data-supply_id="555054"></i> -->
 									</div>
 								</div>
 								<div class="main_contentBox">
 									<div class="main_content_title">
-										<a href="#" target="_blank" title="铜仁3.00亩农用地出租"> <span></span>铜仁3.00亩农用地出租
+										<a href="#" target="_blank" title="贵州省紫云县117亩林地资源林权转让"> <span></span>贵州省紫云县117亩林地资源林权转让
 										</a>
 									</div>
 									<div class="main_content">
 										<div class="main_content_tt">
-											<span class="main_ctn" title="其他土地-设施农用地/水产养殖,养殖场,农家乐出租">
-												<a href="#">其他土地</a>- <a href="#">设施农用地</a>/ <a href="#">水产养殖</a>,
-												<a href="#">养殖场</a>, <a href="#">农家乐</a>
-											</span> <span>出租</span>
+											<span class="main_ctn" title="林地-灌木林地/灌木  转让"> <a
+												href="#">林地</a>- <a href="#">灌木林地</a>/ <a href="#">灌木</a>
+											</span> <span>转让</span>
 										</div>
 										<div class="main_content_dz">
 											<div class="dz_address padding-left0">
 												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/4.png"></div>-->
-												<div class="tt" title="贵州-黔西南-铜仁">
-													<a href="#">贵州</a>-<a href="#">黔西南</a>-<a href="#">铜仁</a>
+												<div class="tt" title="贵州-安顺-紫云苗族布依族">
+													<a href="#">贵州</a>-<a href="#">安顺</a>-<a href="#">紫云苗族布依族</a>
 												</div>
 												<div class="clear"></div>
 												<div class="dz_position"></div>
 											</div>
 											<div class="dz_number">
 												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/9.png"></div>-->
-												<div class="tt" title="3.00亩">3.00亩</div>
+												<div class="tt" title="117.00亩">117.00亩</div>
 												<div class="clear"></div>
 												<div class="dz_number_position"></div>
 											</div>
 											<div class="dz_address">
 												<!-- <div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/1.png"></div>-->
-												<div class="tt" title="5年">5年</div>
+												<div class="tt" title="44年">44年</div>
 												<div class="clear"></div>
 											</div>
 											<div class="clear"></div>
@@ -724,7 +726,75 @@ function hideURLbar(){ window.scrollTo(0,1); }
 										<div class="main_content_list">
 											<ul class="w600">
 												<li class="type_recommend">个人地源</li>
-												<li class="type_free">电话核实</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+									<div class="main_rtt">
+										<div class="money">
+											面议<br>
+											<span></span>
+										</div>
+									</div>
+									<div class="clear"></div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+
+
+						<div id="mainBox" class="_quick_collect_box">
+							<div class="main">
+								<div class="main_img">
+
+									<a href="#" target="_blank"
+										title="贵州黔东南苗族侗族从江县往洞镇信地118亩林地 — 有林地入股"> <img width="100%"
+										height="100%" class="_lazy" src="../web/soil/images/ling8.jpg"
+										data-original="images/ling8.jpg"
+										alt="贵州黔东南苗族侗族从江县往洞镇信地118亩林地 — 有林地入股" style="display: inline;">
+									</a>
+									<div class="main_rt_scc">
+										<!-- <i class="fa fa-heart-o _collect_btn" data-supply_id="555054"></i> -->
+									</div>
+								</div>
+								<div class="main_contentBox">
+									<div class="main_content_title">
+										<a href="#" target="_blank"
+											title="贵州黔东南苗族侗族从江县往洞镇信地118亩林地 — 有林地转包"> <span></span>贵州黔东南苗族侗族从江县往洞镇信地118亩林地
+											— 有林地入股
+										</a>
+									</div>
+									<div class="main_content">
+										<div class="main_content_tt">
+											<span class="main_ctn" title="林地-有林地   转包"> <a
+												href="#">林地</a>- <a href="#">有林地</a>
+											</span> <span>转包</span>
+										</div>
+										<div class="main_content_dz">
+											<div class="dz_address padding-left0">
+												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/4.png"></div>-->
+												<div class="tt" title="贵州-黔南-龙里">
+													<a href="#">贵州</a>-<a href="#">黔东南苗族侗族</a>-<a href="#">从江县</a>
+												</div>
+												<div class="clear"></div>
+												<div class="dz_position"></div>
+											</div>
+											<div class="dz_number">
+												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/9.png"></div>-->
+												<div class="tt" title="118亩">118亩</div>
+												<div class="clear"></div>
+												<div class="dz_number_position"></div>
+											</div>
+											<div class="dz_address">
+												<!-- <div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/1.png"></div>-->
+												<div class="tt" title="45年">45年</div>
+												<div class="clear"></div>
+											</div>
+											<div class="clear"></div>
+										</div>
+										<div class="main_content_list">
+											<ul class="w600">
+												<li class="type_recommend">个人地源</li>
 
 												<div class="clear"></div>
 											</ul>
@@ -747,39 +817,40 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="main">
 								<div class="main_img">
 
-									<a href="#" target="_blank" title="好花红镇1.6亩旱地转让"> <img
-										width="100%" height="100%" class="_lazy"
-										src="../web/soil/images/img20.jpg"
-										data-original="images/img20.jpg" alt="好花红镇1.6亩旱地转让"
+									<a href="#" target="_blank" title="贵州毕节金沙县100亩林地 — 有林地转让">
+										<img width="100%" height="100%" class="_lazy"
+										src="../web/soil/images/ling10.png"
+										data-original="images/ling10.png" alt="贵州毕节金沙县100亩林地 — 有林地转让"
 										style="display: inline;">
 									</a>
 									<div class="main_rt_scc">
-										<i class="fa fa-heart-o _collect_btn" data-supply_id="555054"></i>
+										<!-- <i class="fa fa-heart-o _collect_btn" data-supply_id="555054"></i> -->
 									</div>
 								</div>
 								<div class="main_contentBox">
 									<div class="main_content_title">
-										<a href="#" target="_blank" title="好花红镇1.6亩旱地转让"> <span></span>好花红镇1.6亩旱地转让
+										<a href="#" target="_blank" title="贵州毕节金沙县100亩林地 — 有林地转让">
+											<span></span>贵州毕节金沙县100亩林地 — 有林地转让
 										</a>
 									</div>
 									<div class="main_content">
 										<div class="main_content_tt">
-											<span class="main_ctn" title="耕地-旱地/家庭农场转让"> <a
-												href="#">耕地</a>- <a href="#">旱地</a>/ <a href="#">家庭农场</a>
+											<span class="main_ctn" title="林地-有林地  转让"> <a href="#">林地</a>-
+												<a href="#">有林地</a>/
 											</span> <span>转让</span>
 										</div>
 										<div class="main_content_dz">
 											<div class="dz_address padding-left0">
 												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/4.png"></div>-->
-												<div class="tt" title="贵州-黔南-惠水">
-													<a href="#">贵州</a>-<a href="#">黔南</a>-<a href="#">惠水</a>
+												<div class="tt" title="贵州-毕节-金沙县">
+													<a href="#">贵州</a>-<a href="#">毕节</a>-<a href="#">金沙县</a>
 												</div>
 												<div class="clear"></div>
 												<div class="dz_position"></div>
 											</div>
 											<div class="dz_number">
 												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/9.png"></div>-->
-												<div class="tt" title="1.6亩">1.6亩</div>
+												<div class="tt" title="100.00亩">100.00亩</div>
 												<div class="clear"></div>
 												<div class="dz_number_position"></div>
 											</div>
@@ -793,16 +864,14 @@ function hideURLbar(){ window.scrollTo(0,1); }
 										<div class="main_content_list">
 											<ul class="w600">
 												<li class="type_recommend">个人地源</li>
-												<li class="type_free">电话核实</li>
-
 												<div class="clear"></div>
 											</ul>
 										</div>
 									</div>
 									<div class="main_rtt">
 										<div class="money">
-											600<br>
-											<span>元/亩/年</span>
+											10<br>
+											<span></span>万元/亩
 										</div>
 									</div>
 									<div class="clear"></div>
@@ -810,53 +879,49 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								<div class="clear"></div>
 							</div>
 						</div>
-
-
 						<div id="mainBox" class="_quick_collect_box">
 							<div class="main">
 								<div class="main_img">
 
-									<a href="#" target="_blank" title="黔南 - 龙里土地出租可以做养殖场"> <img
-										width="100%" height="100%" class="_lazy"
-										src="../web/soil/images/img31.jpg"
-										data-original="images/img31.jpg" alt="黔南 - 龙里土地出租可以做养殖场"
+									<a href="#" target="_blank" title="贵州遵义遵义县500亩林地 — 有林地出租">
+										<img width="100%" height="100%" class="_lazy"
+										src="../web/soil/images/ling9.jpg"
+										data-original="images/ling9.jpg" alt="贵州遵义遵义县500亩林地 — 有林地出租"
 										style="display: inline;">
 									</a>
 									<div class="main_rt_scc">
-										<i class="fa fa-heart-o _collect_btn" data-supply_id="555054"></i>
+										<!-- <i class="fa fa-heart-o _collect_btn" data-supply_id="555054"></i> -->
 									</div>
 								</div>
 								<div class="main_contentBox">
 									<div class="main_content_title">
-										<a href="#" target="_blank" title="黔南 - 龙里土地出租可以做养殖场"> <span></span>黔南
-											- 龙里土地出租可以做养殖场
+										<a href="#" target="_blank" title="贵州遵义遵义县500亩林地 — 有林地出租">
+											<span></span>贵州遵义遵义县500亩林地 — 有林地出租
 										</a>
 									</div>
 									<div class="main_content">
 										<div class="main_content_tt">
-											<span class="main_ctn" title="耕地-旱地/旱地,农庄出租"> <a
-												href="#">耕地</a>- <a href="#">旱地</a>/ <a href="#">旱地</a>, <a
-												href="#">农庄</a>
-											</span> <span>出租</span>
+											<span class="main_ctn" title="林地-有林地  出租"> <a href="#">林地</a>-
+												<a href="#">有林地</a> <span>出租</span>
 										</div>
 										<div class="main_content_dz">
 											<div class="dz_address padding-left0">
 												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/4.png"></div>-->
-												<div class="tt" title="贵州-黔南-龙里">
-													<a href="#">贵州</a>-<a href="#">黔南</a>-<a href="#">龙里</a>
+												<div class="tt" title="贵州-遵义-遵义县">
+													<a href="#">贵州</a>-<a href="#">遵义</a>-<a href="#">遵义县</a>
 												</div>
 												<div class="clear"></div>
 												<div class="dz_position"></div>
 											</div>
 											<div class="dz_number">
 												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/9.png"></div>-->
-												<div class="tt" title="3.2亩">3.2亩</div>
+												<div class="tt" title="500.00亩">500.00亩</div>
 												<div class="clear"></div>
 												<div class="dz_number_position"></div>
 											</div>
 											<div class="dz_address">
 												<!-- <div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/1.png"></div>-->
-												<div class="tt" title="15年">15年</div>
+												<div class="tt" title="30年">30年</div>
 												<div class="clear"></div>
 											</div>
 											<div class="clear"></div>
@@ -864,16 +929,14 @@ function hideURLbar(){ window.scrollTo(0,1); }
 										<div class="main_content_list">
 											<ul class="w600">
 												<li class="type_recommend">个人地源</li>
-												<li class="type_free">电话核实</li>
-
 												<div class="clear"></div>
 											</ul>
 										</div>
 									</div>
 									<div class="main_rtt">
 										<div class="money">
-											<br>
-											<span>面议</span>
+											面议<br>
+											<span></span>
 										</div>
 									</div>
 									<div class="clear"></div>
@@ -883,75 +946,10 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						</div>
 
 
-						<div id="mainBox" class="_quick_collect_box">
-							<div class="main">
-								<div class="main_img">
 
-									<a href="#" target="_blank" title="鱼洞街道3亩耕地 — 水田出租"> <img
-										width="100%" height="100%" class="_lazy"
-										src="../web/soil/images/img10.jpg"
-										data-original="images/img10.jpg" alt="鱼洞街道3亩耕地 — 水田出租"
-										style="display: inline;">
-									</a>
-									<div class="main_rt_scc">
-										<i class="fa fa-heart-o _collect_btn" data-supply_id="555054"></i>
-									</div>
-								</div>
-								<div class="main_contentBox">
-									<div class="main_content_title">
-										<a href="#" target="_blank" title="鱼洞街道3亩耕地 — 水田出租"> <span></span>鱼洞街道3亩耕地
-											— 水田出租
-										</a>
-									</div>
-									<div class="main_content">
-										<div class="main_content_tt">
-											<span class="main_ctn" title="耕地-水田出租"> <a href="#">耕地</a>-
-												<a href="#">水田</a>/
 
-											</span> <span>出租</span>
-										</div>
-										<div class="main_content_dz">
-											<div class="dz_address padding-left0">
-												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/4.png"></div>-->
-												<div class="tt" title="重庆-巴南-鱼洞">
-													<a href="#">重庆</a>-<a href="#">巴南</a>-<a href="#">鱼洞</a>
-												</div>
-												<div class="clear"></div>
-												<div class="dz_position"></div>
-											</div>
-											<div class="dz_number">
-												<!--<div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/9.png"></div>-->
-												<div class="tt" title="3.00亩">3.00亩</div>
-												<div class="clear"></div>
-												<div class="dz_number_position"></div>
-											</div>
-											<div class="dz_address">
-												<!-- <div class="img"><img width="100%" src="//static.dihe.cn/static/pc/webone/images/1.png"></div>-->
-												<div class="tt" title="5年">5年</div>
-												<div class="clear"></div>
-											</div>
-											<div class="clear"></div>
-										</div>
-										<div class="main_content_list">
-											<ul class="w600">
-												<li class="type_recommend">个人地源</li>
-												<li class="type_free">免看地费</li>
 
-												<div class="clear"></div>
-											</ul>
-										</div>
-									</div>
-									<div class="main_rtt">
-										<div class="money">
-											2000<br>
-											<span>元/亩/年</span>
-										</div>
-									</div>
-									<div class="clear"></div>
-								</div>
-								<div class="clear"></div>
-							</div>
-						</div>
+
 
 
 						<div class="digg">
@@ -960,11 +958,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<ul class="pagination">
 										<li class="a-no"><a href="javascript:;">上一页</a></li>
 										<li class="active"><a href="#" data-page="1">1</a></li>
-										<li><a href="about" data-page="2">2</a></li>
-										<li><a href="about" data-page="3">3</a></li>
-										<li><a href="about" data-page="4">4</a></li>
-										<li><a href="about" data-page="...">...</a></li>
-										<li><a href="about">下一页</a></li>
+										<li><a href="about.html">下一页</a></li>
 									</ul>
 								</div>
 							</div>
@@ -979,11 +973,11 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 				<div class="w_sidebar ">
 					<div class="w_sidebar_m1" title="我要租出土地">
-						<a href="insertSoil" target="_blank" class=""><img
+						<a href="insert.html" target="_blank" class=""><img
 							width="100%" src="../web/soil/images/mian2.png" alt="我要租出土地"></a>
 					</div>
 					<div class="w_sidebar_m1" title="委托找地">
-						<a href="foundSoil" target="_blank" class=""><img width="100%"
+						<a href="Seek.html" target="_blank" class=""><img width="100%"
 							src="../web/soil/images/mian3.png" alt="委托找地"></a>
 					</div>
 					<div class="w_sidebar_content1">

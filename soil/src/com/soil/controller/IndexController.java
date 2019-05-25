@@ -133,4 +133,19 @@ public class IndexController {
 		return "insert";
 	}
 	
+	
+	/***
+	 *搜索信息
+	 * @return
+	 */
+	@RequestMapping("abouts")
+	public String abouts(int type) {
+		String result="";
+		if(type==1) result="aboutgz";
+		if(type==2) result="aboutld";
+		if(type==3) result="aboutyd";
+		
+		return result;
+	}
+	
 }
