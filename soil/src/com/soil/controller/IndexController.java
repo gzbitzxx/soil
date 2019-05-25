@@ -9,7 +9,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.soil.pojo.Soil;
+import com.soil.pojo.User;
 import com.soil.service.SoilService;
+import com.soil.service.UserService;
 import com.soil.util.Pagination;
 
 import sun.management.counter.Variability;
@@ -26,6 +28,10 @@ public class IndexController {
 	@Autowired
 	@Qualifier("soilService")
 	private SoilService soilService;
+	
+	@Autowired
+	@Qualifier("userService")
+	private UserService userService;
 	
 	/***
 	 * 系统首页
@@ -93,6 +99,19 @@ public class IndexController {
 	@RequestMapping("/register")
 	public String register() {
 		return "register";
+	}
+	
+	/***
+	 * 注册
+	 * @return
+	 */
+	@RequestMapping("/addUser")
+	public String addUser(User user) {
+		user.setAge(0);
+		user.setType("1");
+		user.setSex("男");
+		userService.insert(user);
+		return "login";
 	}
 	
 }
