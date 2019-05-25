@@ -82,7 +82,6 @@ public class IndexController {
 	@RequestMapping("/detail")
 	public String detail(Model model,String id) {
 		Soil soil=soilService.findSoilById(id);
-		System.out.println(soil.getTitle());
 		model.addAttribute("soil", soil);
 		return "details";
 	}

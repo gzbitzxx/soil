@@ -46,15 +46,15 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		<span class="menu"></span>
 		<div class="top-menu">
 			<ul>
-				<li><a class="active scroll" href="index.html"> <i
+				<li><a class="active scroll" href="index"> <i
 						class="fa fa-home"></i>首页
 				</a></li>
-				<li><a href="about.html"><i class="fa fa-star"> </i>我要找地</a></li>
-				<li><a href="contact.html"><i class="fa fa-thumbs-up">
+				<li><a href="about"><i class="fa fa-star"> </i>我要找地</a></li>
+				<li><a href="contact"><i class="fa fa-thumbs-up">
 					</i>土地资讯</a></li>
-				<li><a href="services.html"><i class="fa fa-picture-o">
+				<li><a href="services"><i class="fa fa-picture-o">
 					</i>帮助中心</a></li>
-				<li><a href="login.html"><i class="fa fa-envelope-o"> </i>登录/注册</a></li>
+				<li><a href="login"><i class="fa fa-envelope-o"> </i>登录/注册</a></li>
 				<div class="clearfix"></div>
 			</ul>
 		</div>
@@ -93,7 +93,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 			</div>
 			<div class="ads-container clear">
 				<div class="ads-detail">
-					<p class="ads-detail-title">黔南三都县110.00亩种植土地出租</p>
+					<p class="ads-detail-title">${soil.title}</p>
 					<ul class="ads-detail-label clear">
 						<li class="bf-color-green">个人地源</li>
 					</ul>
@@ -208,7 +208,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						<div class="ads-detail-ctx ">
 							<div class="ads-detail-list1 clear">
 								<p>
-									租金：<span class="ads-detail-cost">面议</span>
+									租金：<span class="ads-detail-cost">${soil.price}</span>
 								</p>
 							</div>
 							<div class="ads-detail-list2 ads-detail-list2-pb184">
@@ -219,25 +219,24 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</p>
 								<p class="ads-detail-list2-posi">
 									<span class="ads-detail-list2-label">面积</span> <span>:</span> <span
-										class="ads-detail-margin">110亩</span>
+										class="ads-detail-margin">${soil.length*soil.width}</span>
 								</p>
 
 								<p class="ads-detail-list2-posi">
 									<span class="ads-detail-list2-label">可流转年限</span> <span>:</span>
-									<span class="ads-detail-margin">14年</span>
+									<span class="ads-detail-margin">${soil.year}</span>
 								</p>
 								<p class="ads-detail-list2-posi">
 									<span class="ads-detail-list2-label">地区</span> <span
 										style="vertical-align: top;">:</span> <span
 										class="ads-detail-margin"
 										style="color: #37ac68; margin-left: 12px !important; display: inline-block; width: 200px">
-										<a href="#" target="_blank">贵州</a>- <a href="#"
-										target="_blank">黔南布依族苗族</a>- <a href="#" target="_blank">三都</a>
+										${soil.region}
 									</span>
 								</p>
 								<p class="ads-detail-list2-posi">
 									<span class="ads-detail-list2-label">分类</span> <span>: </span>
-									<a href="#" target="_blank"> <span style="color: #37ac68;">旱地
+									<a href="#" target="_blank"> <span style="color: #37ac68;">${soil.type}
 									</span>
 									</a>
 								</p>
@@ -269,7 +268,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<span class="ads-detail-list3-label">手机号码</span> <span>:</span>
 									<span class="ads-detail-list3-tel"> <img
 										src="../web/soil/images/dianhua.png" alt=""> <span
-										class="no_login_contact">18355946118</span>
+										class="no_login_contact">1888888</span>
 									</span>
 								</p>
 
@@ -390,10 +389,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						<div class="ads-detail-areaIntro">
 							<p class="ads-areaIntro-title">贵州黔南布依族苗族三都县</p>
 							<div class="ads-areaIntro-desc" style="height: 120px;">
-								<p>黔南布依族苗族自治州位于贵州省中南部，处在大西南对外开放出海的黄金通道上，北靠省会贵阳，南与广西壮族自治区邻接，是</p>
-								<p>多民族聚居的地方。辖都匀、福泉两个县级市，贵定、荔波、独山、瓮安、平塘、惠水、龙里、罗甸、独山、长顺10个县和三都水族自</p>
-								<p>治县，面积26195平方千米，人口397万，州府位于都匀市。湘黔铁路、株六铁路复线，贵新高等级公路和四通八达的国道省道县道，</p>
-								<p>以及荔波机场、扩能改造的黔桂铁路和红水河、都柳江航运等，构成了快速便捷的立体交通网</p>
+								${soil.description}
 							</div>
 						</div>
 					</div>
