@@ -296,7 +296,7 @@ img {
 /*------图片------*/
 
 .main {
-    background-image: url(images/index_bg.jpg);
+    /*background-image: url(images/index_bg.jpg);*/
 }
 
 .s_content .main_img {
@@ -311,7 +311,7 @@ img {
     z-index: 1;
     left: 0px;
     top: 0px;
-    background: url(/static/pc/images/index/merge/level.png);
+    /*background: url(/static/pc/images/index/merge/level.png);*/
     width: 30px;
     height: 45px;
     line-height: 42px;
@@ -331,7 +331,7 @@ img {
     position: absolute;
     top: 10px;
     right: 10px;
-    background: url(/static/pc/webone/images/collect.png) no-repeat;
+    /*background: url(/static/pc/webone/images/collect.png) no-repeat;*/
 }
 
 
@@ -538,6 +538,62 @@ img[Attributes Style] {
     line-height: 17px;
     padding-bottom: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------无--------------*/
+
+
+.s_content_empty {
+    width: 246px;
+    margin-top: 60px;
+    margin: auto;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+.s_content_why {
+    color: #333333;
+    font-size: 18px;
+    text-align: center;
+}
+
+.s_content_button {
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin: auto;
+    margin-top: 50px;
+    color: #ffffff !important;
+    font-size: 18px;
+    background: #37ac68;
+    margin-bottom: 30px;
+}
+.s_content_button a {
+    color: #ffffff !important;
+}
+
+
+/*-------------无--------------*/
+
+
 
 
 
