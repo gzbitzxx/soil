@@ -1,14 +1,19 @@
 package com.soil.controller;
 
+import java.io.File;
+import java.util.Date;
 import java.util.List;
+import java.util.UUID;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.multipart.MultipartFile;
 
 import com.soil.pojo.Soil;
 import com.soil.pojo.User;
@@ -178,6 +183,33 @@ public class IndexController {
 		request.getSession().setAttribute("user", user2);
 		
 		return "myself";
+	}
+	
+	/****
+	 * 修改当前用户信息
+	 * @param user
+	 * @return
+	 */
+	@RequestMapping("addSoil")
+	public String addSoil(Soil soil, HttpSession session)throws Exception {
+		MultipartFile blFile = soil.getBlFile();
+		if (!blFile.isEmpty()) {
+			String oldFileName = blFile.getOriginalFilename();
+			String path = session.getServletContext().getRealPath("/") + "/Images";
+			String randomStr = UUID.randomUUID().toString();
+			String newFileName = randomStr + oldFileName.substring(oldFileName.lastIndexOf("."));
+			File file = new File(path, newFileName);
+			if (!file.getParentFile().exists()) {
+				file.getParentFile().mkdirs();
+			}
+			blFile.transferTo(file);
+			soil.setPicture("/Images/" + newFileName);
+		}
+		Date data = new Date();
+		soil.setCreateTime(data);
+		soilService.insert(soil);
+
+		return "index";
 	}
 	
 }
