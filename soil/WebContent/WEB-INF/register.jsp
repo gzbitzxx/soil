@@ -26,6 +26,19 @@ label.error {
 	color: red;
 }
 
+.setBtn {
+    background: #fbb100;
+    border-radius: 20px;
+    width: 360px;
+    display: block;
+    font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 17px;
+    border: 0;
+}
+
 </style>
 <!-- 设置验证提示的样式 结束 -->
 
@@ -162,7 +175,7 @@ label.error {
 
 						</div>
 						<p class="xieyi">
-							<input type="submit" value="注册">
+							<input type="submit" value="注册" class="setBtn">
 						</p>
 					</div>
 				</div>

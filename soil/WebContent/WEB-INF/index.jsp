@@ -12,11 +12,25 @@
 
 <script type="application/x-javascript">
 	
+	
+	
+	
+	
+	
+	
+	
 	 
 addEventListener("load", function() { 
 	setTimeout(hideURLbar, 0); 
 	}, false); 
 function hideURLbar(){ window.scrollTo(0,1); } 
+
+
+
+
+
+
+
 
 </script>
 <link href="../web/soil/css/bootstrap.css" rel='stylesheet'
@@ -163,7 +177,7 @@ a:-webkit-any-link {
 					<li><a href="../index/services"><i class="fa fa-picture-o">
 						</i>帮助中心</a></li>
 					<c:if test="${user!=null}">
-						<li><a href="#"><i class="fa fa-envelope-o"> </i>${user.name}</a></li>
+						<li><a href="../index/myself"><i class="fa fa-envelope-o"> </i>${user.name}</a></li>
 						<li><a href="../user/loginOut"><i
 								class="fa fa-envelope-o"> </i>注销</a></li>
 					</c:if>
@@ -199,53 +213,9 @@ a:-webkit-any-link {
 							<h1>土地租赁交流网</h1>
 							<h2>农村土地租赁承包网络平台</h2>
 						</div>
-						<div class="details">
-							<div class="container">
-								<div class="col-xs-10 dropdown-buttons">
-									<div class="col-xs-4 dropdown-button">
-										<div class="section_room">
-											<select id="country" onchange="change_country(this.value)"
-												class="frm-field required">
-												<option value="null">土地区域</option>
-												<option value="null">黔南</option>
-												<option value="AX">黔东南</option>
-												<option value="AX">黔西南</option>
-											</select>
-										</div>
-									</div>
-									<div class="col-xs-4 dropdown-button">
-										<div class="section_room">
-											<select id="country" onchange="change_country(this.value)"
-												class="frm-field required">
-												<option value="null">土地类型</option>
-												<option value="null">耕地</option>
-												<option value="AX">园地</option>
-												<option value="AX">林地</option>
-											</select>
-										</div>
-									</div>
-									<div class="col-xs-4 dropdown-button">
-										<div class="section_room">
-											<select id="country" onchange="change_country(this.value)"
-												class="frm-field required">
-												<option value="null">土地面积</option>
-												<option value="null">5以下亩</option>
-												<option value="AX">30亩</option>
-												<option value="AX">50亩</option>
-												<option value="AX">100+亩</option>
 
-											</select>
-										</div>
-									</div>
-								</div>
-								<div class="col-xs-2 submit_button">
-									<form>
-										<a href="about.html"><i></i><input type="submit"
-											value="搜索"></i></a>
-									</form>
-								</div>
-								<div class="clearfix"></div>
-							</div></li>
+						<div class="clearfix"></div>
+					</div></li>
 				<li><img src="../web/soil/images/banner3.jpg"
 					class="img-responsive" alt="" />
 					<div class="banner_desc">
@@ -253,51 +223,9 @@ a:-webkit-any-link {
 							<h1>土地租赁交流网</h1>
 							<h2>农村土地租赁承包网络平台</h2>
 						</div>
-						<div class="details">
-							<div class="container">
-								<div class="col-xs-10 dropdown-buttons">
-									<div class="col-xs-4 dropdown-button">
-										<div class="section_room">
-											<select id="country" onchange="change_country(this.value)"
-												class="frm-field required">
-												<option value="null">土地区域</option>
-												<option value="null">黔南</option>
-												<option value="AX">黔东南</option>
-												<option value="AX">黔西南</option>
-											</select>
-										</div>
-									</div>
-									<div class="col-xs-4 dropdown-button">
-										<div class="section_room">
-											<select id="country" onchange="change_country(this.value)"
-												class="frm-field required">
-												<option value="null">土地类型</option>
-												<option value="null">水田</option>
-												<option value="AX">水浇地</option>
-												<option value="AX">旱地</option>
-											</select>
-										</div>
-									</div>
-									<div class="col-xs-4 dropdown-button">
-										<div class="section_room">
-											<select id="country" onchange="change_country(this.value)"
-												class="frm-field required">
-												<option value="null">土地面积</option>
-												<option value="null">1亩</option>
-												<option value="AX">5亩</option>
-												<option value="AX">10亩</option>
-											</select>
-										</div>
-									</div>
-								</div>
-								<div class="col-xs-2 submit_button">
-									<form>
-										<a href="about.html"><i></i><input type="submit"
-											value="搜索"></i></a>
-									</form>
-								</div>
-								<div class="clearfix"></div>
-							</div></li>
+
+						<div class="clearfix"></div>
+					</div></li>
 				<li><img src="../web/soil/images/banner2.jpg"
 					class="img-responsive" alt="" />
 					<div class="banner_desc">
@@ -305,51 +233,8 @@ a:-webkit-any-link {
 							<h1>土地租赁交流网</h1>
 							<h2>农村土地租赁承包网络平台</h2>
 						</div>
-						<div class="details">
-							<div class="container">
-								<div class="col-xs-10 dropdown-buttons">
-									<div class="col-xs-4 dropdown-button">
-										<div class="section_room">
-											<select id="country" onchange="change_country(this.value)"
-												class="frm-field required">
-												<option value="null">土地区域</option>
-												<option value="null">黔南</option>
-												<option value="AX">黔东南</option>
-												<option value="AX">黔西南</option>
-											</select>
-										</div>
-									</div>
-									<div class="col-xs-4 dropdown-button">
-										<div class="section_room">
-											<select id="country" onchange="change_country(this.value)"
-												class="frm-field required">
-												<option value="null">土地类型</option>
-												<option value="null">水田</option>
-												<option value="AX">水浇地</option>
-												<option value="AX">旱地</option>
-											</select>
-										</div>
-									</div>
-									<div class="col-xs-4 dropdown-button">
-										<div class="section_room">
-											<select id="country" onchange="change_country(this.value)"
-												class="frm-field required">
-												<option value="null">土地面积</option>
-												<option value="null">1亩</option>
-												<option value="AX">5亩</option>
-												<option value="AX">10亩</option>
-											</select>
-										</div>
-									</div>
-								</div>
-								<div class="col-xs-2 submit_button">
-									<form>
-										<a href="about.html"><i></i><input type="submit"
-											value="搜索"></i></a>
-									</form>
-								</div>
-								<div class="clearfix"></div>
-							</div></li>
+						<div class="clearfix"></div>
+					</div></li>
 			</ul>
 		</div>
 	</div>
@@ -367,15 +252,17 @@ a:-webkit-any-link {
 					<a class="list-more" href="#" target="_blank">更多地块 &gt;</a>
 				</div>
 			</div>
-			<div class="service_grid">
-				<c:forEach var="soil" items="${soils}">
 
+
+			<div class="service_grid">
+
+				<c:forEach var="soil" items="${soils}" begin="1" end="4" step="1">
 					<div class="col-md-3 service_box">
 						<a class="fancybox" href="images/img1.jpg"
 							data-fancybox-group="gallery" title="Product Name"><img
 							src="${soil.picture}" class="img-responsive" alt="" /><span>
 						</span></a>
-						<h3> ${soil.type} </h3>
+						<h3>${soil.type}</h3>
 						<p>
 							${soil.title} （${soil.secondtitle}）</br>区域：${soil.region}</br>用途：${soil.description}<span>
 								<a href="../index/detail?id=${soil.id}">[查看详情]</a>
@@ -383,11 +270,13 @@ a:-webkit-any-link {
 						</p>
 					</div>
 
-				</c:forEach>
 
+				</c:forEach>
 				<div class="clearfix"></div>
 			</div>
-			
+
+
+
 			<!-- ------------------ -->
 			<div class="idx-ad">
 				<a href="#" target="_blank"> <img

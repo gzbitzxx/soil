@@ -11,7 +11,9 @@
 <link rel="shortcut icon" href="../web/favicon.ico" />
 <script type="application/x-javascript">
 	
+	
 	 addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
+
 
 </script>
 <link href="../web/soil/css/bootstrap.css" rel='stylesheet'
@@ -49,8 +51,15 @@
 						</i>土地资讯</a></li>
 					<li><a href="../index/services"><i class="fa fa-picture-o">
 						</i>帮助中心</a></li>
-					<li><a href="../index/login"><i class="fa fa-envelope-o">
-						</i>登录/注册</a></li>
+					<c:if test="${user!=null}">
+						<li><a href="../index/myself"><i class="fa fa-envelope-o"> </i>${user.name}</a></li>
+						<li><a href="../user/loginOut"><i
+								class="fa fa-envelope-o"> </i>注销</a></li>
+					</c:if>
+					<c:if test="${user==null}">
+						<li><a href="../index/login"><i class="fa fa-envelope-o">
+							</i>登录/注册 </a></li>
+					</c:if>
 					<div class="clearfix"></div>
 				</ul>
 			</div>
@@ -282,7 +291,6 @@
 											<input type="text" name="title" value=""
 												class="block_ass_in width-580">
 										</div>
-										<!-- <div class="block_bar_tip" id="tip_bt">标题超过30字，请自行缩短标题字数</div> -->
 									</div>
 									<div class="block_bar margin-top20 clear" id="aa">
 										<div class="block_bar_title width-90 margin-top8">
@@ -293,21 +301,8 @@
 												最多可上传10张照片，图片每张最大6M。支持jpg、png、gif格式<br>
 
 											</div>
-											<!-- <div class="photo_list photo_list1">
-                            <div class="photo_list_img">
-                                
-                                <div class="photo_list_img_del">
-                                    <img src="//static.dihe.cn/static/pc/images/two_merge/del.png" alt="">
-                                </div>
-                                <div class="photo_list_img_setcover  photo_list_img_cover">
-                                    设为封面
-                                </div>
-                                <div class="photo_list_img_coverok photo_list_img_cover">
-                                    封面
-                                </div>
-                            </div> -->
 											<div class="img-upload photo_list_img">
-												<img width="100%" src="images/shang.png"> <input
+												<img width="100%" src="../web/soil/images/shang.png"> <input
 													type="file" id="img-upload" name="file" multiple=""
 													class="displaynone"> <input type="hidden"
 													id="files_id" name="accessories" value="">

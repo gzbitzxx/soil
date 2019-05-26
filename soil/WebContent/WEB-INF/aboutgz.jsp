@@ -59,8 +59,15 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						</i>土地资讯</a></li>
 					<li><a href="../index/services"><i class="fa fa-picture-o">
 						</i>帮助中心</a></li>
-					<li><a href="../index/login"><i class="fa fa-envelope-o">
-						</i>登录/注册</a></li>
+					<c:if test="${user!=null}">
+						<li><a href="../index/myself"><i class="fa fa-envelope-o"> </i>${user.name}</a></li>
+						<li><a href="../user/loginOut"><i
+								class="fa fa-envelope-o"> </i>注销</a></li>
+					</c:if>
+					<c:if test="${user==null}">
+						<li><a href="../index/login"><i class="fa fa-envelope-o">
+							</i>登录/注册 </a></li>
+					</c:if>
 					<div class="clearfix"></div>
 				</ul>
 			</div>

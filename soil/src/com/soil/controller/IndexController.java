@@ -148,4 +148,24 @@ public class IndexController {
 		return result;
 	}
 	
+	/***
+	 * 获取当前跳转到当前用户页面
+	 * @return
+	 */
+	@RequestMapping("myself")
+	public String myself() {
+		return "myself";
+	}
+	
+	/****
+	 * 修改当前用户信息
+	 * @param user
+	 * @return
+	 */
+	@RequestMapping("updata")
+	public String updata(User user) {
+		userService.update(user);
+		return "myself";
+	}
+	
 }
