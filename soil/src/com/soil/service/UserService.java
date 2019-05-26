@@ -13,6 +13,13 @@ public interface UserService extends BaseService<User>{
 	public User login(User user);
 	
 	/**
+	 * 根据Id查询信息
+	 * @param id 
+	 * @return 信息
+	 */
+	public User findUserById(String id);
+	
+	/**
 	 * 获取用户下拉信息
 	 * @return
 	 */

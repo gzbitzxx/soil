@@ -54,5 +54,9 @@ public class UserServiceimpl implements UserService {
 		// TODO Auto-generated method stub
 		return userMapper.list(pagination);
 	}
+	@Override
+	public User findUserById(String id) {
+		return userMapper.findById(id);
+	}
 	
 }

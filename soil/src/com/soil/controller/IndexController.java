@@ -2,6 +2,8 @@ package com.soil.controller;
 
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
@@ -13,6 +15,7 @@ import com.soil.pojo.User;
 import com.soil.service.SoilService;
 import com.soil.service.UserService;
 import com.soil.util.Pagination;
+import com.soil.util.SecurityUtil;
 
 import sun.management.counter.Variability;
 
@@ -163,8 +166,17 @@ public class IndexController {
 	 * @return
 	 */
 	@RequestMapping("updata")
-	public String updata(User user) {
+	public String updata(User user,HttpServletRequest request) {
+		user.setPassword(SecurityUtil.strToMD5(user.getPassword()));
+		
 		userService.update(user);
+		
+		request.getSession().removeAttribute("user");
+		
+		User user2=userService.findUserById(user.getId()+"");
+		
+		request.getSession().setAttribute("user", user2);
+		
 		return "myself";
 	}
 	

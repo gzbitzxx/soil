@@ -103,7 +103,7 @@
 </style>
 
 				<div class="want_main">
-					<form id="supply_form" method="post" action="/supply/add">
+					<form id="supply_form" method="post" action="../index/updata">
 						<div class="t_blockj_box">
 							<div class="margin-top30"></div>
 							<h1 style="text-align: center;">个人信息中心</h1>
@@ -137,6 +137,7 @@
 
 									</div>
 									<input name="type" type="hidden" value="${user.type}" id="type">
+									<input name="id" type="hidden" value="${user.id}" id="id">
 
 									<div class="block_bar margin-top50 clear">
 										<div class="block_bar_title width-90 margin-top8">
