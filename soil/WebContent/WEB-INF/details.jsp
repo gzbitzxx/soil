@@ -11,11 +11,13 @@
 <link rel="shortcut icon" href="../web/favicon.ico" />
 <script type="application/x-javascript">
 	
+	
 	 
 addEventListener("load", function() { 
 	setTimeout(hideURLbar, 0); 
 	}, false); 
 function hideURLbar(){ window.scrollTo(0,1); } 
+
 
 </script>
 <link href="../web/soil/css/bootstrap.css" rel='stylesheet'
@@ -39,7 +41,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <div class="header">
 	<div class="col-xs-4">
 		<div class="logo">
-			<a href="../index/index"><img src="../web/soil/images/logo.png" alt="" /></a>
+			<a href="../index/index"><img src="../web/soil/images/logo.png"
+				alt="" /></a>
 		</div>
 	</div>
 	<div class="col-xs-8 header_right">
@@ -50,19 +53,18 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						class="fa fa-home"></i>首页
 				</a></li>
 				<li><a href="about"><i class="fa fa-star"> </i>我要找地</a></li>
-				<li><a href="contact"><i class="fa fa-thumbs-up">
-					</i>土地资讯</a></li>
-				<li><a href="services"><i class="fa fa-picture-o">
-					</i>帮助中心</a></li>
+				<li><a href="contact"><i class="fa fa-thumbs-up"> </i>土地资讯</a></li>
+				<li><a href="services"><i class="fa fa-picture-o"> </i>帮助中心</a></li>
 				<c:if test="${user!=null}">
-						<li><a href="../index/myself"><i class="fa fa-envelope-o"> </i>${user.name}</a></li>
-						<li><a href="../user/loginOut"><i
-								class="fa fa-envelope-o"> </i>注销</a></li>
-					</c:if>
-					<c:if test="${user==null}">
-						<li><a href="../index/login"><i class="fa fa-envelope-o">
-							</i>登录/注册 </a></li>
-					</c:if>
+					<li><a href="../index/myself"><i class="fa fa-envelope-o">
+						</i>${user.name}</a></li>
+					<li><a href="../user/loginOut"><i class="fa fa-envelope-o">
+						</i>注销</a></li>
+				</c:if>
+				<c:if test="${user==null}">
+					<li><a href="../index/login"><i class="fa fa-envelope-o">
+						</i>登录/注册 </a></li>
+				</c:if>
 				<div class="clearfix"></div>
 			</ul>
 		</div>
@@ -84,8 +86,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	<div class="container">
 		<div class="about">
 			<div class="idx-ad">
-				<a href="#" target="_blank"> <img src="../web/soil/images/soil222.jpg"
-					title="自营  " alt="自营"></a>
+				<a href="#" target="_blank"> <img
+					src="../web/soil/images/soil222.jpg" title="自营  " alt="自营"></a>
 			</div>
 		</div>
 
@@ -120,8 +122,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									<div class="carousel-inner" role="listbox">
 										<div class="item ci-pic  active">
 											<div class="del_sell_box">
-												<img src="../web/soil/images/tu1.jpg" data-original="images/tu1.jpg"
-													alt="IMG">
+												<img src="../web/soil/images/tu1.jpg"
+													data-original="images/tu1.jpg" alt="IMG">
 												<!--    <img src="../web/soil/images/img1.jpg" data-original="images/img1.jpg" alt="IMG"> -->
 											</div>
 											<div class="ci-description">
@@ -132,8 +134,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 										<div class="item ci-pic  ">
 											<div class="del_sell_box">
-												<img src="../web/soil/images/tu2.jpg" data-original="images/tu2.jpg"
-													alt="IMG">
+												<img src="../web/soil/images/tu2.jpg"
+													data-original="images/tu2.jpg" alt="IMG">
 												<!-- <img src="../web/soil/images/img2.jpg" data-original="images/img2.jpg" alt="IMG"> -->
 											</div>
 											<div class="ci-description">
@@ -144,8 +146,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 										<div class="item ci-pic  ">
 											<div class="del_sell_box">
-												<img src="../web/soil/images/tu3.jpg" data-original="images/tu3.jpg"
-													alt="IMG">
+												<img src="../web/soil/images/tu3.jpg"
+													data-original="images/tu3.jpg" alt="IMG">
 												<!-- <img src="../web/soil/images/img3.jpg" data-original="images/img3.jpg/" alt="IMG"> -->
 											</div>
 											<div class="ci-description">
@@ -156,13 +158,13 @@ function hideURLbar(){ window.scrollTo(0,1); }
 									</div>
 									<a class="left carousel-control" href="#carousel-example-multi"
 										role="button" data-slide="prev" style="height: 70%;"> <img
-										src="../web/soil/images/left.png" class="cem-only ceml-only" width="50%">
-										<span class="sr-only">Previous</span>
+										src="../web/soil/images/left.png" class="cem-only ceml-only"
+										width="50%"> <span class="sr-only">Previous</span>
 									</a> <a class="right carousel-control"
 										href="#carousel-example-multi" role="button" data-slide="next"
-										style="height: 70%;"> <img src="../web/soil/images/right.png"
-										class="cem-only ceml-only" width="50%"> <span
-										class="sr-only">Next</span>
+										style="height: 70%;"> <img
+										src="../web/soil/images/right.png" class="cem-only ceml-only"
+										width="50%"> <span class="sr-only">Next</span>
 									</a>
 								</div>
 							</div>
@@ -239,8 +241,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 										style="vertical-align: top;">:</span> <span
 										class="ads-detail-margin"
 										style="color: #37ac68; margin-left: 12px !important; display: inline-block; width: 200px">
-										${soil.region}
-									</span>
+										${soil.region} </span>
 								</p>
 								<p class="ads-detail-list2-posi">
 									<span class="ads-detail-list2-label">分类</span> <span>: </span>
@@ -397,34 +398,34 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						<div class="ads-detail-areaIntro">
 							<p class="ads-areaIntro-title">贵州黔南布依族苗族三都县</p>
 							<div class="ads-areaIntro-desc" style="height: 120px;">
-								${soil.description}
-							</div>
+								${soil.description}</div>
 						</div>
 					</div>
 
-
-					<div class="ads-area-details window-scroll">
-						<p class="ads-details-title">客服交流</p>
-						<div class="contact">
-							<div id="container">
-								<div class="headers">
-									<span style="float: right;">16:00</span> <span
-										style="float: left;">陶先生</span>
-								</div>
-
-								<ul class="content"></ul>
-
-								<div class="footer">
-									<div class="icon">
-										<img src="../web/soil/images/11.png" alt="" id="icon">
+					<c:if test="${user!=null}">
+						<div class="ads-area-details window-scroll">
+							<p class="ads-details-title">客服交流</p>
+							<div class="contact">
+								<div id="container">
+									<div class="headers">
+										<span style="float: right;">16:00</span> <span
+											style="float: left;">陶先生</span>
 									</div>
-									<input id="text" type="text" placeholder="说点什么吧..."> <span
-										id="btn">发送</span>
+
+									<ul class="content"></ul>
+
+									<div class="footer">
+										<div class="icon">
+											<img src="../web/soil/images/11.png" alt="" id="icon">
+										</div>
+										<input id="text" type="text" placeholder="说点什么吧..."> <span
+											id="btn">发送</span>
+									</div>
 								</div>
+								<div class="clearfix"></div>
 							</div>
-							<div class="clearfix"></div>
 						</div>
-					</div>
+					</c:if>
 
 				</div>
 

@@ -106,36 +106,6 @@ function hideURLbar(){ window.scrollTo(0,1); }
     </div>
 </div>
 
-   <!--  <div class="slider">
-        <div class="callbacks_container">
-            <ul class="rslides" id="slider">
-                <li><img src="../web/soil/images/zixun1.jpg" class="img-responsive" alt="" />
-                    <div class="banner_desc">
-                        <div class="container">
-                            <h1>土地租赁交流网</h1>
-                            <h2>农村土地租赁承包网络平台</h2>
-                        </div>
-                </li>
-                <li><img src="../web/soil/images/zixun2.jpg" class="img-responsive" alt="" />
-                    <div class="banner_desc">
-                        <div class="container">
-                            <h1>土地租赁交流网</h1>
-                            <h2>农村土地租赁承包网络平台</h2>
-                        </div>
-                </li>
-                <li><img src="../web/soil/images/zixun3.jpg" class="img-responsive" alt="" />
-                    <div class="banner_desc">
-                        <div class="container">
-                            <h1>土地租赁交流网</h1>
-                            <h2>农村土地租赁承包网络平台</h2>
-                        </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="smart_details">
-    </div> -->
-
 <div id="container">
     <div class="top-pic-wrap">
 
@@ -169,9 +139,6 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
     </div>
 </div>
-
-      <!------------------------------------------>
-
 
 
 <div class="res_main">

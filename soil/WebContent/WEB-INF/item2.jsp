@@ -10,7 +10,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="shortcut icon" href="../web/favicon.ico" />
 <script type="application/x-javascript">
+	
 	 addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
+
 </script>
 <link href="../web/soil/css/bootstrap.css" rel='stylesheet'
 	type='text/css' />
@@ -31,7 +33,7 @@
 	<div class="header">
 		<div class="col-xs-4">
 			<div class="logo">
-				<a href="index"><img       src="../web/soil/images/logo.png" alt="" /></a>
+				<a href="index"><img src="../web/soil/images/logo.png" alt="" /></a>
 			</div>
 		</div>
 		<div class="col-xs-8 header_right">
@@ -47,7 +49,8 @@
 					<li><a href="../index/services"><i class="fa fa-picture-o">
 						</i>帮助中心</a></li>
 					<c:if test="${user!=null}">
-						<li><a href="../index/myself"><i class="fa fa-envelope-o"> </i>${user.name}</a></li>
+						<li><a href="../index/myself"><i class="fa fa-envelope-o">
+							</i>${user.name}</a></li>
 						<li><a href="../user/loginOut"><i
 								class="fa fa-envelope-o"> </i>注销</a></li>
 					</c:if>
@@ -75,7 +78,7 @@
 			<div class="about">
 				<div class="idx-ad">
 					<a href="#" target="_blank"> <img
-						      src="../web/soil/images/soil222.jpg" title="自营  " alt="自营"></a>
+						src="../web/soil/images/soil222.jpg" title="自营  " alt="自营"></a>
 				</div>
 			</div>
 
@@ -107,7 +110,7 @@
 										<div class="carousel-inner" role="listbox">
 											<div class="item ci-pic  active">
 												<div class="del_sell_box">
-													<img       src="../web/soil/images/guiyang1.jpeg"
+													<img src="../web/soil/images/guiyang1.jpeg"
 														data-original="images/guiyang1.jpeg" alt="IMG">
 
 												</div>
@@ -119,7 +122,7 @@
 
 											<div class="item ci-pic  ">
 												<div class="del_sell_box">
-													<img       src="../web/soil/images/guiyang2.jpeg"
+													<img src="../web/soil/images/guiyang2.jpeg"
 														data-original="images/guiyang2.jpeg" alt="IMG">
 
 												</div>
@@ -134,13 +137,13 @@
 										<a class="left carousel-control"
 											href="#carousel-example-multi" role="button"
 											data-slide="prev" style="height: 70%;"> <img
-											      src="../web/soil/images/left.png" class="cem-only ceml-only" width="50%">
-											<span class="sr-only">Previous</span>
+											src="../web/soil/images/left.png" class="cem-only ceml-only"
+											width="50%"> <span class="sr-only">Previous</span>
 										</a> <a class="right carousel-control"
 											href="#carousel-example-multi" role="button"
 											data-slide="next" style="height: 70%;"> <img
-											      src="../web/soil/images/right.png" class="cem-only ceml-only" width="50%">
-											<span class="sr-only">Next</span>
+											src="../web/soil/images/right.png" class="cem-only ceml-only"
+											width="50%"> <span class="sr-only">Next</span>
 										</a>
 									</div>
 								</div>
@@ -158,14 +161,16 @@
 											<td class="multi_nav_td _g1">
 												<div role="presentation"
 													class="plot_img_list1 multi_nav_item active">
-													<a href="/file"> <img       src="../web/soil/images/guiyang1.jpeg">
+													<a href="/file"> <img
+														src="../web/soil/images/guiyang1.jpeg">
 													</a>
 												</div>
 											</td>
 											<td class="multi_nav_td _g1">
 												<div role="presentation"
 													class="plot_img_list1 multi_nav_item ">
-													<a href="/file"> <img       src="../web/soil/images/guiyang2.jpeg">
+													<a href="/file"> <img
+														src="../web/soil/images/guiyang2.jpeg">
 													</a>
 												</div>
 											</td>
@@ -248,7 +253,7 @@
 									<p>
 										<span class="ads-detail-list3-label">手机号码</span> <span>:</span>
 										<span class="ads-detail-list3-tel"> <img
-											      src="../web/soil/images/dianhua.png" alt=""> <span
+											src="../web/soil/images/dianhua.png" alt=""> <span
 											class="no_login_contact">18395001892</span>
 										</span>
 									</p>
@@ -339,18 +344,18 @@
 							<div>
 								<div class="ads-details-pic">
 									<div class="ads-details-bigger" style="display: none;">
-										<img       src="../web/soil/images/guiyang1.jpeg" alt="">
+										<img src="../web/soil/images/guiyang1.jpeg" alt="">
 									</div>
-									<img class="_lazy"       src="../web/soil/images/guiyang1.jpeg"
+									<img class="_lazy" src="../web/soil/images/guiyang1.jpeg"
 										data-original="images/guiyang1.jpeg" alt=""
 										style="display: inline;"> <span></span>
 								</div>
 
 								<div class="ads-details-pic">
 									<div class="ads-details-bigger" style="display: none;">
-										<img       src="../web/soil/images/guiyang2.jpeg" alt="">
+										<img src="../web/soil/images/guiyang2.jpeg" alt="">
 									</div>
-									<img class="_lazy"       src="../web/soil/images/guiyang2.jpeg"
+									<img class="_lazy" src="../web/soil/images/guiyang2.jpeg"
 										data-original="images/guiyang2.jpeg" alt=""
 										style="display: inline;"> <span></span>
 								</div>
@@ -364,7 +369,7 @@
 								区域介绍<span>————贵州 贵阳 乌当</span>
 							</p>
 							<div class="ads-details-maps">
-								<img       src="../web/soil/images/guiyangdi.png">
+								<img src="../web/soil/images/guiyangdi.png">
 							</div>
 							<div class="ads-detail-areaIntro">
 								<p class="ads-areaIntro-title">贵州 贵阳 乌当</p>
@@ -378,25 +383,29 @@
 
 						<div class="ads-area-details window-scroll">
 							<p class="ads-details-title">客服交流</p>
-							<div class="contact">
-								<div id="container">
-									<div class="headers">
-										<span style="float: right;">15:00</span> <span
-											style="float: left;">高青</span>
-									</div>
 
-									<ul class="content" id="communication"></ul>
-
-									<div class="footer">
-										<div class="icon">
-											<img       src="../web/soil/images/11.png" alt="" id="icon">
+							<c:if test="${user!=null}">
+								<div class="contact">
+									<div id="container">
+										<div class="headers">
+											<span style="float: right;">15:00</span> <span
+												style="float: left;">高青</span>
 										</div>
-										<input id="text" type="text" placeholder="说点什么吧..."> <span
-											id="btn">发送</span>
+
+										<ul class="content" id="communication"></ul>
+
+										<div class="footer">
+											<div class="icon">
+												<img src="../web/soil/images/11.png" alt="" id="icon">
+											</div>
+											<input id="text" type="text" placeholder="说点什么吧...">
+											<span id="btn">发送</span>
+										</div>
 									</div>
+									<div class="clearfix"></div>
 								</div>
-								<div class="clearfix"></div>
-							</div>
+
+							</c:if>
 						</div>
 
 					</div>
@@ -407,11 +416,11 @@
 						<div class="w_sidebar ">
 							<div class="w_sidebar_m1" title="我要租出土地">
 								<a href="insert.html" target="_blank" class=""><img
-									width="100%"       src="../web/soil/images/mian2.png" alt="我要租出土地"></a>
+									width="100%" src="../web/soil/images/mian2.png" alt="我要租出土地"></a>
 							</div>
 							<div class="w_sidebar_m1" title="委托找地">
 								<a href="Seek.html" target="_blank" class=""><img
-									width="100%"       src="../web/soil/images/mian3.png" alt="委托找地"></a>
+									width="100%" src="../web/soil/images/mian3.png" alt="委托找地"></a>
 							</div>
 							<div class="w_sidebar_content1">
 								<div class="w_sidebar_title1">土地政策</div>
@@ -451,7 +460,7 @@
 								<div class="w_sidebar_box2">
 									<a href="#" target="_blank">
 										<div class="w_sidebar_m2">
-											<img width="100%"       src="../web/soil/images/mian4.jpg"
+											<img width="100%" src="../web/soil/images/mian4.jpg"
 												alt="全国优质油茶基地山林地项目转让出租">
 										</div>
 										<div class="tt">全国优质油茶基地山林地项目转让出租</div>
@@ -460,7 +469,7 @@
 								<div class="w_sidebar_box2">
 									<a href="#" target="_blank">
 										<div class="w_sidebar_m2">
-											<img width="100%"       src="../web/soil/images/mian5.jpg"
+											<img width="100%" src="../web/soil/images/mian5.jpg"
 												alt="稻虾种养年收百万：全国优质小龙虾养殖用地鱼塘水田推荐">
 										</div>
 										<div class="tt">稻虾种养年收百万：全国优质小龙虾养殖用地鱼塘水田推荐</div>
@@ -491,57 +500,55 @@
 
 <!-- ----------------交流界面------------------ -->
 <script type="text/javascript">
-        // 获取图片标签
-        var img = document.getElementById("icon");
-        var arr = ["../web/soil/images/11.png","../web/soil/images/22.png"];
-        var tag = 0;
-        // 给图片对象绑定点击事件
-        img.onclick = function(){
-            // 根据当前显示的图片切换用户图片。
-            if(tag == 0){
-                img.src = arr[1];
-                tag = 1;
-                console.log(img.src);
-            }else{
-                img.src = arr[0];
-                tag = 0;
-            }
-        }
+	// 获取图片标签
+	var img = document.getElementById("icon");
+	var arr = [ "../web/soil/images/11.png", "../web/soil/images/22.png" ];
+	var tag = 0;
+	// 给图片对象绑定点击事件
+	img.onclick = function() {
+		// 根据当前显示的图片切换用户图片。
+		if (tag == 0) {
+			img.src = arr[1];
+			tag = 1;
+			console.log(img.src);
+		} else {
+			img.src = arr[0];
+			tag = 0;
+		}
+	}
 
-        var btn = document.getElementById("btn");
-        var num = -1; //统计聊天记录
-        btn.onclick = function(){
-            // 判断用户内容是否为空
-            var text = document.getElementById("text").value;
-            if(text == ""){
-                alert("聊天内容不能为空");
-            }
-            else{
-                // 把用户内容添加到区域区域
-                var content = document.getElementById("communication");
-                content.innerHTML += "<li><img src='"+arr[tag]+"'/><span>"+text+"</span></li>"
-            }
+	var btn = document.getElementById("btn");
+	var num = -1; //统计聊天记录
+	btn.onclick = function() {
+		// 判断用户内容是否为空
+		var text = document.getElementById("text").value;
+		if (text == "") {
+			alert("聊天内容不能为空");
+		} else {
+			// 把用户内容添加到区域区域
+			var content = document.getElementById("communication");
+			content.innerHTML += "<li><img src='"+arr[tag]+"'/><span>" + text
+					+ "</span></li>"
+		}
 
-            var imgs = content.getElementsByTagName("img");
-            var span = content.getElementsByTagName("span");
-            num++;
-            console.log(imgs[num]);
-            console.log(span[num]);
-            console.log(num);
-            // 判断当前聊天的用户
-            if(tag == 0){
-                imgs[num].className = "imgleft";
-                span[num].className = "spanleft";
-            }else{
-                imgs[num].className = "imgright";
-                span[num].className = "spanright";
-            }
-            //清空聊天内容
-            document.getElementById("text").value= "";
-            
+		var imgs = content.getElementsByTagName("img");
+		var span = content.getElementsByTagName("span");
+		num++;
+		console.log(imgs[num]);
+		console.log(span[num]);
+		console.log(num);
+		// 判断当前聊天的用户
+		if (tag == 0) {
+			imgs[num].className = "imgleft";
+			span[num].className = "spanleft";
+		} else {
+			imgs[num].className = "imgright";
+			span[num].className = "spanright";
+		}
+		//清空聊天内容
+		document.getElementById("text").value = "";
 
-        }
-
+	}
 </script>
 <!-- ----------------交流界面------------------ -->
 </html>

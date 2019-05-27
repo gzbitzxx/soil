@@ -326,7 +326,7 @@
                 </div>
             </div>
 
-            
+            <c:if test="${user!=null}">
             <div class="ads-area-details window-scroll">
                 <p class="ads-details-title">客服交流</p>
                 <div class="contact">
@@ -345,7 +345,7 @@
                     <div class="clearfix"> </div>
                 </div>
             </div>
-           
+           </c:if>
         </div>
 
 
