@@ -147,10 +147,10 @@ function hideURLbar(){ window.scrollTo(0,1); }
                 <div class="header">
                     <div class="header_right header_right_noimg">
                         <div class="header_right_title">
-                            <a href="#" target="_blank" title="绵阳：农机成春耕生产“主力军”"> 绵阳：农机成春耕生产“主力军”</a>
+                            <a href="#"  title="绵阳：农机成春耕生产“主力军”"> 绵阳：农机成春耕生产“主力军”</a>
                         </div>
                         <div class="land_list_tt">
-                            <a href="#" target="_blank"> 时值春耕之际，江油的农田里一片繁忙，一台台现代农业机械在田间地头来回穿梭作业，成为春耕生产“主力军”。
+                            <a href="#" > 时值春耕之际，江油的农田里一片繁忙，一台台现代农业机械在田间地头来回穿梭作业，成为春耕生产“主力军”。
                             </a>
                         </div>
                         <div class="header_right_bottom">
@@ -173,10 +173,10 @@ function hideURLbar(){ window.scrollTo(0,1); }
                 <div class="header">
                     <div class="header_right header_right_noimg">
                         <div class="header_right_title">
-                           <a href="#" target="_blank" title="减施化肥农药推进油菜产业绿色“成长”"> 减施化肥农药推进油菜产业绿色“成长”</a>
+                           <a href="#"  title="减施化肥农药推进油菜产业绿色“成长”"> 减施化肥农药推进油菜产业绿色“成长”</a>
                         </div>
                         <div class="land_list_tt">
-                            <a href="#" target="_blank"> 国家重点研发计划项目“油菜化肥农药减施技术集成研究与示范”日前在四川成都进行了年度总结，并召开现场观摩会。由四川省农业科学院土壤肥料研究所研究人员刘定辉牵头的该项目，已分别在四川盆地、三峡库区、云南山地和贵州喀斯特山地四大片区设置重点研究区域，建成5个较为成熟的技术模式示范基地，实现肥料化肥和农药各减量25%，油菜籽平均增产3%以上，综合技术模式辐射达到300万亩。
+                            <a href="#" > 国家重点研发计划项目“油菜化肥农药减施技术集成研究与示范”日前在四川成都进行了年度总结，并召开现场观摩会。由四川省农业科学院土壤肥料研究所研究人员刘定辉牵头的该项目，已分别在四川盆地、三峡库区、云南山地和贵州喀斯特山地四大片区设置重点研究区域，建成5个较为成熟的技术模式示范基地，实现肥料化肥和农药各减量25%，油菜籽平均增产3%以上，综合技术模式辐射达到300万亩。
                             </a>
                         </div>
                         <div class="header_right_bottom">
@@ -198,10 +198,10 @@ function hideURLbar(){ window.scrollTo(0,1); }
                 <div class="header">
                     <div class="header_right header_right_noimg">
                         <div class="header_right_title">
-                            <a href="#" target="_blank" title="房市地市双升温 中国二线城市“春风”未停"> 房市地市双升温 中国二线城市“春风”未停</a>
+                            <a href="#"  title="房市地市双升温 中国二线城市“春风”未停"> 房市地市双升温 中国二线城市“春风”未停</a>
                         </div>
                         <div class="land_list_tt">
-                            <a href="#" target="_blank"> 　与率先升温又“带头”降温的一线楼市不同，中国多地二线城市房地产市场近期依然春意盎然，房市、地市双双升温。
+                            <a href="#" > 　与率先升温又“带头”降温的一线楼市不同，中国多地二线城市房地产市场近期依然春意盎然，房市、地市双双升温。
                             </a>
                         </div>
                         <div class="header_right_bottom">
@@ -225,10 +225,10 @@ function hideURLbar(){ window.scrollTo(0,1); }
                 <div class="header">
                     <div class="header_right header_right_noimg">
                         <div class="header_right_title">
-                            <a href="#" target="_blank" title="珠三角楼市筑底回暖明显 粤东西北地区继续下行探底"> 珠三角楼市筑底回暖明显 粤东西北地区继续下行探底</a>
+                            <a href="#"  title="珠三角楼市筑底回暖明显 粤东西北地区继续下行探底"> 珠三角楼市筑底回暖明显 粤东西北地区继续下行探底</a>
                         </div>
                         <div class="land_list_tt">
-                            <a href="#" target="_blank"> 广东省房协4月29日晚公布今年一季度广东房地产市场分析报告。报告显示，广东整体房地产销售面积下降的同时录得销售均价增长。报告认为回温主要由粤港澳大湾区规划利好之下的珠三角地区带动，粤东西北地区则依旧在下行探底的通道上。
+                            <a href="#" > 广东省房协4月29日晚公布今年一季度广东房地产市场分析报告。报告显示，广东整体房地产销售面积下降的同时录得销售均价增长。报告认为回温主要由粤港澳大湾区规划利好之下的珠三角地区带动，粤东西北地区则依旧在下行探底的通道上。
                             </a>
                         </div>
                         <div class="header_right_bottom">
@@ -252,10 +252,10 @@ function hideURLbar(){ window.scrollTo(0,1); }
                 <div class="header">
                     <div class="header_right header_right_noimg">
                         <div class="header_right_title">
-                            <a href="#" target="_blank" title="国内多地放开海岛使用权出让 当“岛主”代价有多高？"> 国内多地放开海岛使用权出让 当“岛主”代价有多高？</a>
+                            <a href="#"  title="国内多地放开海岛使用权出让 当“岛主”代价有多高？"> 国内多地放开海岛使用权出让 当“岛主”代价有多高？</a>
                         </div>
                         <div class="land_list_tt">
-                            <a href="#" target="_blank"> 《广东省自然资源厅关于无居民海岛使用权市场化出让办法(试行)》近日公布，明确广东无居民海岛使用权可通过招标、拍卖或挂牌方式市场化出让，并将于5月10日起实施，这让海岛“买卖”的话题再度升温。
+                            <a href="#" > 《广东省自然资源厅关于无居民海岛使用权市场化出让办法(试行)》近日公布，明确广东无居民海岛使用权可通过招标、拍卖或挂牌方式市场化出让，并将于5月10日起实施，这让海岛“买卖”的话题再度升温。
                             </a>
                         </div>
                         <div class="header_right_bottom">
@@ -278,10 +278,10 @@ function hideURLbar(){ window.scrollTo(0,1); }
                 <div class="header">
                     <div class="header_right header_right_noimg">
                         <div class="header_right_title">
-                            <a href="#" target="_blank" title="广州供应增加 房企拿地态度变积极"> 广州供应增加 房企拿地态度变积极</a>
+                            <a href="#"  title="广州供应增加 房企拿地态度变积极"> 广州供应增加 房企拿地态度变积极</a>
                         </div>
                         <div class="land_list_tt">
-                            <a href="#" target="_blank"> 　房地产开发商以土地为根基，近年来，规模房企纷纷提升了土地储备量，做到“手中有粮心不慌”。而对城市而言，土地供应情况直接决定了该城市新建商品住宅的供应量。换言之，如果住宅用地供应不足或供应超量，也就意味着一段时间后的一手住宅供应量较少或猛增。若楼市供求比不平衡，势必会造成价格的波动。
+                            <a href="#" > 　房地产开发商以土地为根基，近年来，规模房企纷纷提升了土地储备量，做到“手中有粮心不慌”。而对城市而言，土地供应情况直接决定了该城市新建商品住宅的供应量。换言之，如果住宅用地供应不足或供应超量，也就意味着一段时间后的一手住宅供应量较少或猛增。若楼市供求比不平衡，势必会造成价格的波动。
                             </a>
                         </div>
                         <div class="header_right_bottom">
@@ -343,52 +343,52 @@ function hideURLbar(){ window.scrollTo(0,1); }
         <div class="divideBar10"></div>
         <div class="w2_hot_article">
            <div class="hot_img hot_img_1">1</div>
-           <div class="hot_title"><a href="#" target="_blank" title="农村土地流转新政策">农村土地流转新政策</a></div>
+           <div class="hot_title"><a href="#"  title="农村土地流转新政策">农村土地流转新政策</a></div>
            <div class="clear"></div>
         </div>
         <div class="w2_hot_article">
            <div class="hot_img hot_img_2">2</div>
-           <div class="hot_title"><a href="#" target="_blank" title="2018年农村分户政策再出新变化，想分户的速了解！">2018年农村分户政策再出新变化，想分户的速了解！</a></div>
+           <div class="hot_title"><a href="#"  title="2018年农村分户政策再出新变化，想分户的速了解！">2018年农村分户政策再出新变化，想分户的速了解！</a></div>
            <div class="clear"></div>
         </div>
         <div class="w2_hot_article">
            <div class="hot_img hot_img_3">3</div>
-           <div class="hot_title"><a href="#" target="_blank" title="土地流转三大忌讳！">土地流转三大忌讳！</a></div>
+           <div class="hot_title"><a href="#"  title="土地流转三大忌讳！">土地流转三大忌讳！</a></div>
            <div class="clear"></div>
         </div>
         <div class="w2_hot_article">
            <div class="hot_img">4</div>
-           <div class="hot_title"><a href="#" target="_blank" title="世界最奢华10大私人庄园别墅">世界最奢华10大私人庄园别墅</a></div>
+           <div class="hot_title"><a href="#"  title="世界最奢华10大私人庄园别墅">世界最奢华10大私人庄园别墅</a></div>
            <div class="clear"></div>
         </div>
         <div class="w2_hot_article">
            <div class="hot_img">5</div>
-           <div class="hot_title"><a href="#" target="_blank" title="办理土地流转手续具体有哪些要注意？">办理土地流转手续具体有哪些要注意？</a></div>
+           <div class="hot_title"><a href="#"  title="办理土地流转手续具体有哪些要注意？">办理土地流转手续具体有哪些要注意？</a></div>
            <div class="clear"></div>
         </div>
         <div class="w2_hot_article">
            <div class="hot_img">6</div>
-           <div class="hot_title"><a href="#" target="_blank" title="农村土地流转，切记这4个要点，否则会吃大亏！">农村土地流转，切记这4个要点，否则会吃大亏！</a></div>
+           <div class="hot_title"><a href="#"  title="农村土地流转，切记这4个要点，否则会吃大亏！">农村土地流转，切记这4个要点，否则会吃大亏！</a></div>
            <div class="clear"></div>
         </div>
         <div class="w2_hot_article">
            <div class="hot_img">7</div>
-           <div class="hot_title"><a href="#" target="_blank" title="广东规划建设深莞惠区域协同发展试验区">广东规划建设深莞惠区域协同发展试验区</a></div>
+           <div class="hot_title"><a href="#"  title="广东规划建设深莞惠区域协同发展试验区">广东规划建设深莞惠区域协同发展试验区</a></div>
            <div class="clear"></div>
         </div>
         <div class="w2_hot_article">
            <div class="hot_img">8</div>
-           <div class="hot_title"><a href="#" target="_blank" title="丽水推出史上最严农药“管控令”">丽水推出史上最严农药“管控令”</a></div>
+           <div class="hot_title"><a href="#"  title="丽水推出史上最严农药“管控令”">丽水推出史上最严农药“管控令”</a></div>
            <div class="clear"></div>
         </div>
         <div class="w2_hot_article">
            <div class="hot_img">9</div>
-           <div class="hot_title"><a href="#" target="_blank" title="为解决小农户发展缺钱缺人，我国将制定“小农户振兴”扶持政策">为解决小农户发展缺钱缺人，我国将制定“小农户振兴”扶持政策</a></div>
+           <div class="hot_title"><a href="#"  title="为解决小农户发展缺钱缺人，我国将制定“小农户振兴”扶持政策">为解决小农户发展缺钱缺人，我国将制定“小农户振兴”扶持政策</a></div>
            <div class="clear"></div>
         </div>
         <div class="w2_hot_article">
            <div class="hot_img hot_img_last">10</div>
-           <div class="hot_title"><a href="#" target="_blank" title="人工智能时代已经来临">人工智能时代已经来临</a></div>
+           <div class="hot_title"><a href="#"  title="人工智能时代已经来临">人工智能时代已经来临</a></div>
            <div class="clear"></div>
         </div>
     </div>

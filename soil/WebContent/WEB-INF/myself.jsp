@@ -32,7 +32,7 @@
 <link href="../web/soil/css/insert.css" rel='stylesheet' type='text/css' />
 <!-- Menu -->
 <!----font-Awesome----->
-<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+<link rel="stylesheet" href="../web/soil/fonts/css/font-awesome.min.css">
 <!----font-Awesome----->
 
 </head>
@@ -83,7 +83,7 @@
 		<div class="container">
 			<div class="about">
 				<div class="idx-ad">
-					<a href="#" target="_blank"> <img
+					<a href="#" > <img
 						src="http://imgs01.dihe.cn/201712/2215/5a3cae3a6063b.jpg"
 						title="自营" alt="自营"></a>
 				</div>

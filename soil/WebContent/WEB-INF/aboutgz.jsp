@@ -89,7 +89,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		<div class="container">
 			<div class="about">
 				<div class="idx-ad">
-					<a href="#" target="_blank"> <img
+					<a href="#" > <img
 						src="http://imgs01.dihe.cn/201712/2215/5a3cae3a6063b.jpg"
 						title="自营" alt="自营"></a>
 				</div>
@@ -272,7 +272,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="main">
 								<div class="main_img">
 
-									<a href="#" target="_blank" title="贵州黔东南苗族侗族榕江县10亩耕地 — 水浇地出租">
+									<a href="#"  title="贵州黔东南苗族侗族榕江县10亩耕地 — 水浇地出租">
 										<img width="100%" height="100%" class="_lazy"
 										src="../web/soil/images/gz0.jpg"
 										data-original="images/gz0.jpg" alt="贵州黔东南苗族侗族榕江县10亩耕地 — 水浇地出租"
@@ -284,7 +284,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="main_contentBox">
 									<div class="main_content_title">
-										<a href="#" target="_blank" title="贵州黔东南苗族侗族榕江县10亩耕地 — 水浇地出租">
+										<a href="#"  title="贵州黔东南苗族侗族榕江县10亩耕地 — 水浇地出租">
 											<span></span>贵州黔东南苗族侗族榕江县10亩耕地 — 水浇地出租
 										</a>
 									</div>
@@ -340,7 +340,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="main">
 								<div class="main_img">
 
-									<a href="#" target="_blank" title="贵州省黔西县文峰3亩耕地 — 旱地转让"> <img
+									<a href="#"  title="贵州省黔西县文峰3亩耕地 — 旱地转让"> <img
 										width="100%" height="100%" class="_lazy"
 										src="../web/soil/images/gz1.jpg"
 										data-original="images/gz1.jpg" alt="贵州省黔西县文峰3亩耕地 — 旱地转让"
@@ -352,7 +352,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="main_contentBox">
 									<div class="main_content_title">
-										<a href="#" target="_blank" title="贵州省黔西县文峰3亩耕地 — 旱地转让"> <span></span>贵州省黔西县文峰3亩耕地
+										<a href="#"  title="贵州省黔西县文峰3亩耕地 — 旱地转让"> <span></span>贵州省黔西县文峰3亩耕地
 											— 旱地转让
 										</a>
 									</div>
@@ -408,7 +408,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="main">
 								<div class="main_img">
 
-									<a href="#" target="_blank" title="贵州贵阳花溪区30亩耕地 — 水田出租"> <img
+									<a href="#"  title="贵州贵阳花溪区30亩耕地 — 水田出租"> <img
 										width="100%" height="100%" class="_lazy"
 										src="../web/soil/images/gz2.png"
 										data-original="images/gz2.png" alt="贵州贵阳花溪区30亩耕地 — 水田出租"
@@ -420,7 +420,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="main_contentBox">
 									<div class="main_content_title">
-										<a href="#" target="_blank" title="贵州贵阳花溪区30亩耕地 — 水田出租"> <span></span>贵州贵阳花溪区30亩耕地
+										<a href="#"  title="贵州贵阳花溪区30亩耕地 — 水田出租"> <span></span>贵州贵阳花溪区30亩耕地
 											— 水田出租
 										</a>
 									</div>
@@ -478,7 +478,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="main">
 								<div class="main_img">
 
-									<a href="#" target="_blank" title="贵州黔西南州兴义市顶效村8亩地低价出租"> <img
+									<a href="#"  title="贵州黔西南州兴义市顶效村8亩地低价出租"> <img
 										width="100%" height="100%" class="_lazy"
 										src="../web/soil/images/gz3.jpg"
 										data-original="images/gz3.jpg" alt="贵州黔西南州兴义市顶效村8亩地低价出租"
@@ -490,7 +490,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="main_contentBox">
 									<div class="main_content_title">
-										<a href="#" target="_blank" title="贵州黔西南州兴义市顶效村8亩地低价出租"> <span></span>贵州黔西南州兴义市顶效村8亩地低价出租
+										<a href="#"  title="贵州黔西南州兴义市顶效村8亩地低价出租"> <span></span>贵州黔西南州兴义市顶效村8亩地低价出租
 										</a>
 									</div>
 									<div class="main_content">
@@ -545,7 +545,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="main">
 								<div class="main_img">
 
-									<a href="#" target="_blank" title="贵州黔西南布依族苗族贞丰县200亩耕地 — 旱地出租">
+									<a href="#"  title="贵州黔西南布依族苗族贞丰县200亩耕地 — 旱地出租">
 										<img width="100%" height="100%" class="_lazy"
 										src="../web/soil/images/gz4.jpg"
 										data-original="images/gz4.jpg"
@@ -557,7 +557,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="main_contentBox">
 									<div class="main_content_title">
-										<a href="#" target="_blank" title="贵州黔西南布依族苗族贞丰县200亩耕地 — 旱地出租">
+										<a href="#"  title="贵州黔西南布依族苗族贞丰县200亩耕地 — 旱地出租">
 											<span></span>贵州黔西南布依族苗族贞丰县200亩耕地 — 旱地出租
 										</a>
 									</div>
@@ -613,7 +613,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="main">
 								<div class="main_img">
 
-									<a href="#" target="_blank" title="黔南三都县110.00亩种植土地出租"> <img
+									<a href="#"  title="黔南三都县110.00亩种植土地出租"> <img
 										width="100%" height="100%" class="_lazy"
 										src="../web/soil/images/img43.jpg"
 										data-original="images/img43.jpg" alt="黔南三都县110.00亩种植土地出租"
@@ -625,7 +625,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="main_contentBox">
 									<div class="main_content_title">
-										<a href="#" target="_blank" title="黔南三都县110.00亩种植土地出租"> <span></span>黔南三都县110.00亩种植土地出租
+										<a href="#"  title="黔南三都县110.00亩种植土地出租"> <span></span>黔南三都县110.00亩种植土地出租
 										</a>
 									</div>
 									<div class="main_content">
@@ -683,7 +683,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="main">
 								<div class="main_img">
 
-									<a href="#" target="_blank" title="好花红镇1.6亩旱地转让"> <img
+									<a href="#"  title="好花红镇1.6亩旱地转让"> <img
 										width="100%" height="100%" class="_lazy"
 										src="../web/soil/images/img20.jpg"
 										data-original="images/img20.jpg" alt="好花红镇1.6亩旱地转让"
@@ -695,7 +695,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="main_contentBox">
 									<div class="main_content_title">
-										<a href="#" target="_blank" title="好花红镇1.6亩旱地转让"> <span></span>好花红镇1.6亩旱地转让
+										<a href="#"  title="好花红镇1.6亩旱地转让"> <span></span>好花红镇1.6亩旱地转让
 										</a>
 									</div>
 									<div class="main_content">
@@ -751,7 +751,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="main">
 								<div class="main_img">
 
-									<a href="#" target="_blank" title="黔南 - 龙里土地出租可以做养殖场"> <img
+									<a href="#"  title="黔南 - 龙里土地出租可以做养殖场"> <img
 										width="100%" height="100%" class="_lazy"
 										src="../web/soil/images/img31.jpg"
 										data-original="images/img31.jpg" alt="黔南 - 龙里土地出租可以做养殖场"
@@ -763,7 +763,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</div>
 								<div class="main_contentBox">
 									<div class="main_content_title">
-										<a href="#" target="_blank" title="黔南 - 龙里土地出租可以做养殖场"> <span></span>黔南
+										<a href="#"  title="黔南 - 龙里土地出租可以做养殖场"> <span></span>黔南
 											- 龙里土地出租可以做养殖场
 										</a>
 									</div>
@@ -839,41 +839,41 @@ function hideURLbar(){ window.scrollTo(0,1); }
 
 				<div class="w_sidebar ">
 					<div class="w_sidebar_m1" title="我要租出土地">
-						<a href="insertSoil" target="_blank" class=""><img
+						<a href="insertSoil"  class=""><img
 							width="100%" src="../web/soil/images/mian2.png" alt="我要租出土地"></a>
 					</div>
 					<div class="w_sidebar_m1" title="委托找地">
-						<a href="foundSoil" target="_blank" class=""><img width="100%"
+						<a href="foundSoil"  class=""><img width="100%"
 							src="../web/soil/images/mian3.png" alt="委托找地"></a>
 					</div>
 					<div class="w_sidebar_content1">
 						<div class="w_sidebar_title1">土地政策</div>
 						<div class="w_sidebar_art">
-							<a href="#" target="_blank">
+							<a href="#" >
 								<div class="title">我国农机购置补贴政策调整</div>
 								<div class="time">2019-04-09</div>
 							</a>
 						</div>
 						<div class="w_sidebar_art">
-							<a href="#" target="_blank">
+							<a href="#" >
 								<div class="title">《国有建设用地出让地价评估技术规范》解读</div>
 								<div class="time">2019-02-07</div>
 							</a>
 						</div>
 						<div class="w_sidebar_art">
-							<a href="#" target="_blank">
+							<a href="#" >
 								<div class="title">《第三次全国国土调查技术规程》2月1日起实施</div>
 								<div class="time">2019-02-07</div>
 							</a>
 						</div>
 						<div class="w_sidebar_art">
-							<a href="#" target="_blank">
+							<a href="#" >
 								<div class="title">《自然资源部办公厅关于进一步规范储备土地抵押融资加快批而未供土地处置有关问题的通知》政策解读</div>
 								<div class="time">2019-02-06</div>
 							</a>
 						</div>
 						<div class="w_sidebar_art">
-							<a href="#" target="_blank">
+							<a href="#" >
 								<div class="title">《城乡建设用地增减挂钩节余指标跨省域调剂实施办法》解读</div>
 								<div class="time">2019-02-06</div>
 							</a>
@@ -882,7 +882,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					<div class="w_sidebar_content2">
 						<div class="w_sidebar_title2">精选好地</div>
 						<div class="w_sidebar_box2">
-							<a href="#" target="_blank">
+							<a href="#" >
 								<div class="w_sidebar_m2">
 									<img width="100%" src="../web/soil/images/mian4.jpg"
 										alt="全国优质油茶基地山林地项目转让出租">
@@ -891,7 +891,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							</a>
 						</div>
 						<div class="w_sidebar_box2">
-							<a href="#" target="_blank">
+							<a href="#" >
 								<div class="w_sidebar_m2">
 									<img width="100%" src="../web/soil/images/mian5.jpg"
 										alt="稻虾种养年收百万：全国优质小龙虾养殖用地鱼塘水田推荐">

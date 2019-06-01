@@ -68,7 +68,7 @@
     <div class="container">
         <div class="about">
         <div class="idx-ad">
-            <a href="#" target="_blank">
+            <a href="#" >
             <img src="http://imgs01.dihe.cn/201712/2215/5a3cae3a6063b.jpg" title="自营" alt="自营"></a>
          </div>
 

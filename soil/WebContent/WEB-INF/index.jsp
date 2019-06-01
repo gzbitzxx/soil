@@ -247,9 +247,9 @@ a:-webkit-any-link {
 				<div class="idx-list-title clear">
 					<div class="list-icon color-bg-blue"></div>
 					<div class="title">
-						<a href="#" target="_blank" title="耕地流转">耕地</a>
+						<a href="#"  title="耕地流转">耕地</a>
 					</div>
-					<a class="list-more" href="#" target="_blank">更多地块 &gt;</a>
+					<a class="list-more" href="#" >更多地块 &gt;</a>
 				</div>
 			</div>
 
@@ -279,16 +279,16 @@ a:-webkit-any-link {
 
 			<!-- ------------------ -->
 			<div class="idx-ad">
-				<a href="#" target="_blank"> <img
+				<a href="#" > <img
 					src="http://imgs01.dihe.cn/201809/1916/5ba20f1d11675.jpg"
 					title="粤港澳大湾区土地投资联盟" alt="粤港澳大湾区土地投资联盟"></a>
 			</div>
 			<div class="idx-list-title clear">
 				<div class="list-icon color-bg-blue"></div>
 				<div class="title">
-					<a href="#" target="_blank" title="耕地流转">园地</a>
+					<a href="#"  title="耕地流转">园地</a>
 				</div>
-				<a class="list-more" href="#" target="_blank">更多地块 &gt;</a>
+				<a class="list-more" href="#" >更多地块 &gt;</a>
 			</div>
 			<!-- ------------------ -->
 			<div class="service_grid">
@@ -395,16 +395,16 @@ a:-webkit-any-link {
 			</div>
 			<!-- ------------------ -->
 			<div class="idx-ad">
-				<a href="#" target="_blank"> <img
+				<a href="#" > <img
 					src="http://imgs01.dihe.cn/201712/2215/5a3cae3a6063b.jpg"
 					title="地合自营" alt="地合自营"></a>
 			</div>
 			<div class="idx-list-title clear">
 				<div class="list-icon color-bg-blue"></div>
 				<div class="title">
-					<a href="#" target="_blank" title="耕地流转">林地</a>
+					<a href="#"  title="耕地流转">林地</a>
 				</div>
-				<a class="list-more" href="#" target="_blank">更多地块 &gt;</a>
+				<a class="list-more" href="#" >更多地块 &gt;</a>
 			</div>
 			<!-- ------------------ -->
 			<div class="service_grid">

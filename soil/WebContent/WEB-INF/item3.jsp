@@ -77,7 +77,7 @@
 		<div class="container">
 			<div class="about">
 				<div class="idx-ad">
-					<a href="#" target="_blank"> <img
+					<a href="#" > <img
 						src="../web/soil/images/soil222.jpg" title="自营  " alt="自营"></a>
 				</div>
 			</div>
@@ -202,7 +202,7 @@
 									<p class="ads-detail-list2-posi">
 										<span class="ads-detail-list2-label">流转方式</span> <span>:</span>
 										<span class="ads-detail-margin" style="color: #37ac68;"><a
-											href="#" target="_blank">出租</a></span>
+											href="#" >出租</a></span>
 									</p>
 									<p class="ads-detail-list2-posi">
 										<span class="ads-detail-list2-label">面积</span> <span>:</span>
@@ -218,13 +218,13 @@
 											style="vertical-align: top;">:</span> <span
 											class="ads-detail-margin"
 											style="color: #37ac68; margin-left: 12px !important; display: inline-block; width: 200px">
-											<a href="#" target="_blank">贵州</a>- <a href="#"
-											target="_blank">贵阳</a>- <a href="#" target="_blank">乌当</a>
+											<a href="#" >贵州</a>- <a href="#"
+											>贵阳</a>- <a href="#" >乌当</a>
 										</span>
 									</p>
 									<p class="ads-detail-list2-posi">
 										<span class="ads-detail-list2-label">分类</span> <span>:
-										</span> <a href="#" target="_blank"> <span
+										</span> <a href="#" > <span
 											style="color: #37ac68;">水田</span>
 										</a>
 									</p>
@@ -388,41 +388,41 @@
 					<div class="ads-con-right">
 						<div class="w_sidebar ">
 							<div class="w_sidebar_m1" title="我要租出土地">
-								<a href="insert.html" target="_blank" class=""><img
+								<a href="insert.html"  class=""><img
 									width="100%" src="../web/soil/images/mian2.png" alt="我要租出土地"></a>
 							</div>
 							<div class="w_sidebar_m1" title="委托找地">
-								<a href="Seek.html" target="_blank" class=""><img
+								<a href="Seek.html"  class=""><img
 									width="100%" src="../web/soil/images/mian3.png" alt="委托找地"></a>
 							</div>
 							<div class="w_sidebar_content1">
 								<div class="w_sidebar_title1">土地政策</div>
 								<div class="w_sidebar_art">
-									<a href="#" target="_blank">
+									<a href="#" >
 										<div class="title">我国农机购置补贴政策调整</div>
 										<div class="time">2019-04-09</div>
 									</a>
 								</div>
 								<div class="w_sidebar_art">
-									<a href="#" target="_blank">
+									<a href="#" >
 										<div class="title">《国有建设用地出让地价评估技术规范》解读</div>
 										<div class="time">2019-02-07</div>
 									</a>
 								</div>
 								<div class="w_sidebar_art">
-									<a href="#" target="_blank">
+									<a href="#" >
 										<div class="title">《第三次全国国土调查技术规程》2月1日起实施</div>
 										<div class="time">2019-02-07</div>
 									</a>
 								</div>
 								<div class="w_sidebar_art">
-									<a href="#" target="_blank">
+									<a href="#" >
 										<div class="title">《自然资源部办公厅关于进一步规范储备土地抵押融资加快批而未供土地处置有关问题的通知》政策解读</div>
 										<div class="time">2019-02-06</div>
 									</a>
 								</div>
 								<div class="w_sidebar_art">
-									<a href="#" target="_blank">
+									<a href="#" >
 										<div class="title">《城乡建设用地增减挂钩节余指标跨省域调剂实施办法》解读</div>
 										<div class="time">2019-02-06</div>
 									</a>
@@ -431,7 +431,7 @@
 							<div class="w_sidebar_content2">
 								<div class="w_sidebar_title2">精选好地</div>
 								<div class="w_sidebar_box2">
-									<a href="#" target="_blank">
+									<a href="#" >
 										<div class="w_sidebar_m2">
 											<img width="100%" src="../web/soil/images/mian4.jpg"
 												alt="全国优质油茶基地山林地项目转让出租">
@@ -440,7 +440,7 @@
 									</a>
 								</div>
 								<div class="w_sidebar_box2">
-									<a href="#" target="_blank">
+									<a href="#" >
 										<div class="w_sidebar_m2">
 											<img width="100%" src="../web/soil/images/mian5.jpg"
 												alt="稻虾种养年收百万：全国优质小龙虾养殖用地鱼塘水田推荐">

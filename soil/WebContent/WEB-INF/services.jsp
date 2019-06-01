@@ -29,6 +29,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	rel='stylesheet:100,300,400,500,600,700,800,900' type='text/css'>
 <!-- Menu -->
 <link rel="stylesheet" type="text/css" href="../web/soil/css/jquery.fancybox.css" media="screen" />
+<link rel="stylesheet" href="../web/soil/fonts/css/font-awesome.min.css">
 <script type="text/javascript">
 		$(document).ready(function() {
 			$('.fancybox').fancybox();
