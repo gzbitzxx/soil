@@ -15,8 +15,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.soil.pojo.Message;
 import com.soil.pojo.Soil;
 import com.soil.pojo.User;
+import com.soil.service.MessageService;
 import com.soil.service.SoilService;
 import com.soil.service.UserService;
 import com.soil.util.Pagination;
@@ -40,6 +42,11 @@ public class IndexController {
 	@Autowired
 	@Qualifier("userService")
 	private UserService userService;
+	
+	
+	@Autowired
+	@Qualifier("messageService")
+	private MessageService messageService;
 	
 	/***
 	 * 系统首页
@@ -212,4 +219,14 @@ public class IndexController {
 		return "index";
 	}
 	
+	/***
+	 * 消息回复
+	 * @param message
+	 * @return
+	 */
+	@RequestMapping("message")
+	public boolean Contant(Message message) {
+		messageService.insert(message);
+		return true;
+	}
 }
