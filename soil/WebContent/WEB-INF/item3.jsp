@@ -263,78 +263,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="ads-detail-time">
-							<p>2018-11-05更新</p>
-							<p>
-								<font class="_view_num">46</font>次查看
-							</p>
-						</div>
 					</div>
 					<div class="ads-con-left">
-						<div style="height: 50px;">
-							<ul class="ads-tabs clear"
-								style="position: static; top: 0px; left: 0px; z-index: 998; text-decoration: none;">
-								<li class="active">土地流转详情
-									<div class="ads-arrow"></div>
-								</li>
-								<li class="">土地流转介绍
-									<div class="ads-arrow"></div>
-								</li>
-								<li class="">区域介绍
-									<div class="ads-arrow"></div>
-								</li>
-								<li class="">客服交流
-									<div class="ads-arrow"></div>
-								</li>
-							</ul>
-						</div>
-						<div class="ads-area-details window-scroll">
-							<p class="ads-details-title">土地流转详情</p>
-							<div class="ads-types">
-								<span>土壤质地： -</span> <span>土壤类型： -</span> <span>地形条件： -</span> <span>据城镇中心距离：
-									-</span>
-							</div>
-							<div class="details-label clear">
-								<div>设施配套</div>
-								<div>
-									<ul class="clear">
-										<li>-</li>
-									</ul>
-								</div>
-							</div>
-							<div class="details-label clear">
-								<div>政策支持</div>
-								<div>
-									<ul class="clear">
-										<li>-</li>
-									</ul>
-								</div>
-							</div>
-							<div class="details-label clear">
-								<div>地上设施</div>
-								<div>
-									<ul class="clear">
-										<li>-</li>
-									</ul>
-								</div>
-							</div>
-							<div class="details-label clear">
-								<div>旅游资源</div>
-								<div>
-									<ul class="clear">
-										<li>-</li>
-									</ul>
-								</div>
-							</div>
-							<div class="details-label clear">
-								<div>产业集群</div>
-								<div>
-									<ul class="clear">
-										<li>-</li>
-									</ul>
-								</div>
-							</div>
-						</div>
 						<div class="ads-area-details window-scroll clear">
 							<p class="ads-details-title">土地流转介绍</p>
 
@@ -394,60 +324,6 @@
 							<div class="w_sidebar_m1" title="委托找地">
 								<a href="Seek.html"  class=""><img
 									width="100%" src="../web/soil/images/mian3.png" alt="委托找地"></a>
-							</div>
-							<div class="w_sidebar_content1">
-								<div class="w_sidebar_title1">土地政策</div>
-								<div class="w_sidebar_art">
-									<a href="#" >
-										<div class="title">我国农机购置补贴政策调整</div>
-										<div class="time">2019-04-09</div>
-									</a>
-								</div>
-								<div class="w_sidebar_art">
-									<a href="#" >
-										<div class="title">《国有建设用地出让地价评估技术规范》解读</div>
-										<div class="time">2019-02-07</div>
-									</a>
-								</div>
-								<div class="w_sidebar_art">
-									<a href="#" >
-										<div class="title">《第三次全国国土调查技术规程》2月1日起实施</div>
-										<div class="time">2019-02-07</div>
-									</a>
-								</div>
-								<div class="w_sidebar_art">
-									<a href="#" >
-										<div class="title">《自然资源部办公厅关于进一步规范储备土地抵押融资加快批而未供土地处置有关问题的通知》政策解读</div>
-										<div class="time">2019-02-06</div>
-									</a>
-								</div>
-								<div class="w_sidebar_art">
-									<a href="#" >
-										<div class="title">《城乡建设用地增减挂钩节余指标跨省域调剂实施办法》解读</div>
-										<div class="time">2019-02-06</div>
-									</a>
-								</div>
-							</div>
-							<div class="w_sidebar_content2">
-								<div class="w_sidebar_title2">精选好地</div>
-								<div class="w_sidebar_box2">
-									<a href="#" >
-										<div class="w_sidebar_m2">
-											<img width="100%" src="../web/soil/images/mian4.jpg"
-												alt="全国优质油茶基地山林地项目转让出租">
-										</div>
-										<div class="tt">全国优质油茶基地山林地项目转让出租</div>
-									</a>
-								</div>
-								<div class="w_sidebar_box2">
-									<a href="#" >
-										<div class="w_sidebar_m2">
-											<img width="100%" src="../web/soil/images/mian5.jpg"
-												alt="稻虾种养年收百万：全国优质小龙虾养殖用地鱼塘水田推荐">
-										</div>
-										<div class="tt">稻虾种养年收百万：全国优质小龙虾养殖用地鱼塘水田推荐</div>
-									</a>
-								</div>
 							</div>
 							<div class="clear"></div>
 						</div>

@@ -285,70 +285,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 				</div>
 				<div class="ads-con-left">
-					<div style="height: 50px;">
-						<ul class="ads-tabs clear"
-							style="position: static; top: 0px; left: 0px; z-index: 998; text-decoration: none;">
-							<li class="active">土地流转详情
-								<div class="ads-arrow"></div>
-							</li>
-							<li class="">土地流转介绍
-								<div class="ads-arrow"></div>
-							</li>
-							<li class="">区域介绍
-								<div class="ads-arrow"></div>
-							</li>
-							<li class="">客服交流
-								<div class="ads-arrow"></div>
-							</li>
-						</ul>
-					</div>
-					<div class="ads-area-details window-scroll">
-						<p class="ads-details-title">土地流转详情</p>
-						<div class="ads-types">
-							<span>土壤质地： -</span> <span>土壤类型： -</span> <span>地形条件： -</span> <span>据城镇中心距离：
-								-</span>
-						</div>
-						<div class="details-label clear">
-							<div>设施配套</div>
-							<div>
-								<ul class="clear">
-									<li>-</li>
-								</ul>
-							</div>
-						</div>
-						<div class="details-label clear">
-							<div>政策支持</div>
-							<div>
-								<ul class="clear">
-									<li>-</li>
-								</ul>
-							</div>
-						</div>
-						<div class="details-label clear">
-							<div>地上设施</div>
-							<div>
-								<ul class="clear">
-									<li>-</li>
-								</ul>
-							</div>
-						</div>
-						<div class="details-label clear">
-							<div>旅游资源</div>
-							<div>
-								<ul class="clear">
-									<li>-</li>
-								</ul>
-							</div>
-						</div>
-						<div class="details-label clear">
-							<div>产业集群</div>
-							<div>
-								<ul class="clear">
-									<li>-</li>
-								</ul>
-							</div>
-						</div>
-					</div>
+					
 					<div class="ads-area-details window-scroll clear">
 						<p class="ads-details-title">土地流转介绍</p>
 						<p>贵州黔南三都县110亩种植土地出租，交通很好,便利,有意者联系</p>
