@@ -1,3 +1,5 @@
+<%@page import="java.util.Date"%>
+<%@page import="java.text.SimpleDateFormat"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
@@ -12,11 +14,13 @@
 <script type="application/x-javascript">
 	
 	
+	
 	 
 addEventListener("load", function() { 
 	setTimeout(hideURLbar, 0); 
 	}, false); 
 function hideURLbar(){ window.scrollTo(0,1); } 
+
 
 
 </script>
@@ -33,10 +37,15 @@ function hideURLbar(){ window.scrollTo(0,1); }
 <link rel="stylesheet" href="../web/soil/fonts/css/font-awesome.min.css">
 <script type="text/javascript">
 	$(document).ready(function() {
-		$('.fancybox').fancybox();
+
 	});
 </script>
+<%
+Date d = new Date();
+SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+String now = df.format(d);
 
+%>
 </head>
 <div class="header">
 	<div class="col-xs-4">
@@ -86,8 +95,8 @@ function hideURLbar(){ window.scrollTo(0,1); }
 	<div class="container">
 		<div class="about">
 			<div class="idx-ad">
-				<a href="#" > <img
-					src="../web/soil/images/soil222.jpg" title="自营  " alt="自营"></a>
+				<a href="#"> <img src="../web/soil/images/soil222.jpg"
+					title="自营  " alt="自营"></a>
 			</div>
 		</div>
 
@@ -124,7 +133,6 @@ function hideURLbar(){ window.scrollTo(0,1); }
 											<div class="del_sell_box">
 												<img src="../web/soil/images/tu1.jpg"
 													data-original="images/tu1.jpg" alt="IMG">
-												<!--    <img src="../web/soil/images/img1.jpg" data-original="images/img1.jpg" alt="IMG"> -->
 											</div>
 											<div class="ci-description">
 												<span class="pull-left text_white margin-left-10"></span> <span
@@ -225,7 +233,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								<p class="ads-detail-list2-posi">
 									<span class="ads-detail-list2-label">流转方式</span> <span>:</span>
 									<span class="ads-detail-margin" style="color: #37ac68;"><a
-										href="#" >出租</a></span>
+										href="#">出租</a></span>
 								</p>
 								<p class="ads-detail-list2-posi">
 									<span class="ads-detail-list2-label">面积</span> <span>:</span> <span
@@ -245,7 +253,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</p>
 								<p class="ads-detail-list2-posi">
 									<span class="ads-detail-list2-label">分类</span> <span>: </span>
-									<a href="#" > <span style="color: #37ac68;">${soil.type}
+									<a href="#"> <span style="color: #37ac68;">${soil.type}
 									</span>
 									</a>
 								</p>
@@ -285,7 +293,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 					</div>
 				</div>
 				<div class="ads-con-left">
-					
+
 					<div class="ads-area-details window-scroll clear">
 						<p class="ads-details-title">土地流转介绍</p>
 						<p>贵州黔南三都县110亩种植土地出租，交通很好,便利,有意者联系</p>
@@ -337,11 +345,11 @@ function hideURLbar(){ window.scrollTo(0,1); }
 							<div class="contact">
 								<div id="container">
 									<div class="headers">
-										<span style="float: right;">16:00</span> <span
-											style="float: left;">陶先生</span>
+										<span style="float: right;"> ${now} </span> <span
+											style="float: left;"> ${soil.userName} </span>
 									</div>
 
-									<ul class="content"></ul>
+									<ul class="content" id="communication"></ul>
 
 									<div class="footer">
 										<div class="icon">
@@ -363,41 +371,41 @@ function hideURLbar(){ window.scrollTo(0,1); }
 				<div class="ads-con-right">
 					<div class="w_sidebar ">
 						<div class="w_sidebar_m1" title="我要租出土地">
-							<a href="#"  class=""><img width="100%"
+							<a href="#" class=""><img width="100%"
 								src="../web/soil/images/mian2.png" alt="我要租出土地"></a>
 						</div>
 						<div class="w_sidebar_m1" title="委托找地">
-							<a href="#"  class=""><img width="100%"
+							<a href="#" class=""><img width="100%"
 								src="../web/soil/images/mian3.png" alt="委托找地"></a>
 						</div>
 						<div class="w_sidebar_content1">
 							<div class="w_sidebar_title1">土地政策</div>
 							<div class="w_sidebar_art">
-								<a href="#" >
+								<a href="#">
 									<div class="title">我国农机购置补贴政策调整</div>
 									<div class="time">2019-04-09</div>
 								</a>
 							</div>
 							<div class="w_sidebar_art">
-								<a href="#" >
+								<a href="#">
 									<div class="title">《国有建设用地出让地价评估技术规范》解读</div>
 									<div class="time">2019-02-07</div>
 								</a>
 							</div>
 							<div class="w_sidebar_art">
-								<a href="#" >
+								<a href="#">
 									<div class="title">《第三次全国国土调查技术规程》2月1日起实施</div>
 									<div class="time">2019-02-07</div>
 								</a>
 							</div>
 							<div class="w_sidebar_art">
-								<a href="#" >
+								<a href="#">
 									<div class="title">《自然资源部办公厅关于进一步规范储备土地抵押融资加快批而未供土地处置有关问题的通知》政策解读</div>
 									<div class="time">2019-02-06</div>
 								</a>
 							</div>
 							<div class="w_sidebar_art">
-								<a href="#" >
+								<a href="#">
 									<div class="title">《城乡建设用地增减挂钩节余指标跨省域调剂实施办法》解读</div>
 									<div class="time">2019-02-06</div>
 								</a>
@@ -406,7 +414,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 						<div class="w_sidebar_content2">
 							<div class="w_sidebar_title2">精选好地</div>
 							<div class="w_sidebar_box2">
-								<a href="#" >
+								<a href="#">
 									<div class="w_sidebar_m2">
 										<img width="100%" src="../web/soil/images/mian4.jpg"
 											alt="全国优质油茶基地山林地项目转让出租">
@@ -415,7 +423,7 @@ function hideURLbar(){ window.scrollTo(0,1); }
 								</a>
 							</div>
 							<div class="w_sidebar_box2">
-								<a href="#" >
+								<a href="#">
 									<div class="w_sidebar_m2">
 										<img width="100%" src="../web/soil/images/mian5.jpg"
 											alt="稻虾种养年收百万：全国优质小龙虾养殖用地鱼塘水田推荐">
@@ -450,59 +458,74 @@ function hideURLbar(){ window.scrollTo(0,1); }
 		</div>
 		</body>
 
-<!-- ----------------交流界面------------------ -->
-<script type="text/javascript">
-        // 获取图片标签
-        var img = document.getElementById("icon");
-        var arr = ["../web/soil/images/11.png","../web/soil/images/22.png"];
-        var tag = 0;
-        // 给图片对象绑定点击事件
-        img.onclick = function(){
-            // 根据当前显示的图片切换用户图片。
-            if(tag == 0){
-                img.src = arr[1];
-                tag = 1;
-                console.log(img.src);
-            }else{
-                img.src = arr[0];
-                tag = 0;
-            }
-        }
+		<!-- ----------------交流界面------------------ -->
+		<script type="text/javascript">
+		
+		$(document).ready(function() {
+			// 获取图片标签
+			var img = document.getElementById("icon");
+			var arr = [ "../web/soil/images/11.png",
+					"../web/soil/images/22.png" ];
+			var tag = 0;
+			
+			// 给图片对象绑定点击事件
+			$("#icon").click(function(){
+				// 根据当前显示的图片切换用户图片。
+				if (tag == 0) {
+					img.src = arr[1];
+					tag = 1;
+				} else {
+					img.src = arr[0];
+					tag = 0;
+				}
+			});
 
-        var btn = document.getElementById("btn");
-        var num = -1; //统计聊天记录
-        btn.onclick = function(){
-            // 判断用户内容是否为空
-            var text = document.getElementById("text").value;
-            if(text == ""){
-                alert("聊天内容不能为空");
-            }
-            else{
-                // 把用户内容添加到区域区域
-                var content = document.getElementById("communication");
-                content.innerHTML += "<li><img src='"+arr[tag]+"'/><span>"+text+"</span></li>"
-            }
+			var btn = document.getElementById("btn");
+			var num = -1; //统计聊天记录
+			
+			$("#btn").click(function(){
+				// 判断用户内容是否为空
+				var text = document.getElementById("text").value;
+				if (text == "") {
+					alert("聊天内容不能为空");
+					return ;
+				} else {
+					// 把用户内容添加到区域区域
+					var content = document.getElementById("communication");
+					
+					content.innerHTML += "<li><img src='"+arr[tag]+"'/><span>"
+							+ text + "</span></li>"
+							var json={'createUserId':'${user.id}','replayUserId':'${soil.userId}','content':text};
+							console.log(json);
+							$.ajax({
+								url:'../index/message',
+								data:json,
+								dataType:'json',
+							    async: true,
+								success:function(data){
+									console.log(data)
+								}
+								
+							});
+				}
 
-            var imgs = content.getElementsByTagName("img");
-            var span = content.getElementsByTagName("span");
-            num++;
-            console.log(imgs[num]);
-            console.log(span[num]);
-            console.log(num);
-            // 判断当前聊天的用户
-            if(tag == 0){
-                imgs[num].className = "imgleft";
-                span[num].className = "spanleft";
-            }else{
-                imgs[num].className = "imgright";
-                span[num].className = "spanright";
-            }
-            //清空聊天内容
-            document.getElementById("text").value= "";
-            
-
-        }
-
-</script>
-<!-- ----------------交流界面------------------ -->
+				var imgs = content.getElementsByTagName("img");
+				var span = content.getElementsByTagName("span");
+				num++;
+				// 判断当前聊天的用户
+				if (tag == 0) {
+					imgs[num].className = "imgleft";
+					span[num].className = "spanleft";
+				} else {
+					imgs[num].className = "imgright";
+					span[num].className = "spanright";
+				}
+				//清空聊天内容
+				document.getElementById("text").value = "";
+			});
+			
+			
+		});
+		</script>
+		<!-- ----------------交流界面------------------ -->
 </html>

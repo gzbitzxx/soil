@@ -4,7 +4,7 @@
 <mapper namespace="com.soil.mapper.SoilMapper">
 	<!-- 查询SQL片段 -->
 	<sql id="select">
-		id,userid,region,price,type,length,width,picture,state,createtime,description,title,secondtitle,method,year
+		s.id,s.userid,region,price,s.type,length,width,picture,state,s.createtime,description,title,s.secondtitle,method,year,u.name userName
 	</sql>
 	
 	<!-- 筛选片段 -->
@@ -25,7 +25,8 @@
 		resultType="soil">
 		SELECT
 		<include refid="select" />
-		from soil
+		from soil s  LEFT join user u
+		on s.userid=u.id
 		<include refid="serach" />
 		LIMIT #{skipNum},#{takeNum}
 	</select>
@@ -33,7 +34,8 @@
 	<!-- 查询分页条数 -->
 	<select id="count" parameterType="com.soil.util.Pagination"
 		resultType="int">
-		SELECT COUNT(*) from soil
+		SELECT COUNT(*) from soil s  LEFT join user u
+		on s.userid=u.id
 		<include refid="serach" />
 		LIMIT #{skipNum},#{takeNum}
 	</select>
@@ -48,7 +50,8 @@
 	<select id="findById" parameterType="string" resultType="soil">
 		select
 		<include refid="select" />
-		from soil where id=#{id}
+		from soil s  LEFT join user u
+		on s.userid=u.id  where s.id=#{id}
 	</select>
 
 	<!-- 更新信息 -->

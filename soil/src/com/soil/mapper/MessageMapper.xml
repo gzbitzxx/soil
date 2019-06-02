@@ -14,8 +14,8 @@
 	<insert id="insert" parameterType="message">
 		INSERT INTO
 		message
-		(id,createuserid,replayuserid,createtime,content,isread)
-		VALUES(#{id},#{createUserId},#{replayUserId},#{createTime},#{content},#{isRead})
+		(createuserid,replayuserid,createtime,content,isread)
+		VALUES(#{createUserId},#{replayUserId},#{createTime},#{content},#{isRead})
 	</insert>
 	<!-- 查询分页数据 -->
 	<select id="list" parameterType="com.soil.util.Pagination"

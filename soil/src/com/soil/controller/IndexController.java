@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.soil.pojo.Message;
@@ -225,7 +226,11 @@ public class IndexController {
 	 * @return
 	 */
 	@RequestMapping("message")
+	@ResponseBody
 	public boolean Contant(Message message) {
+		message.setCreateTime(new Date());
+		message.setRead(false);
+		System.out.println(message.getContent());
 		messageService.insert(message);
 		return true;
 	}

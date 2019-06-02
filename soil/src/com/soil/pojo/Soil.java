@@ -46,7 +46,15 @@ public class Soil {
 	//年限
 	private String year;
 	
+	//用户名
+	private String userName;
 	
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
 	public String getMethod() {
 		return method;
 	}
